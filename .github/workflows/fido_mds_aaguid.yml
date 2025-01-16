@@ -75,24 +75,15 @@ jobs:
                       "icon_dark": statement.get('icon', None)
                   }
 
-          # 合并自定义 aaguid.json（如果存在）
-          aaguid_path = 'aaguid.json'
-          if os.path.exists(aaguid_path):
-              with open(aaguid_path, 'r') as aaguid_file:
-                  custom_aaguid = json.load(aaguid_file)
-              result = {**result_dict, **custom_aaguid}
-          else:
-              result = result_dict
-
-          # 将结果写入 combined_aaguid.json
-          with open('combined_aaguid.json', 'w') as output_file:
-              json.dump(result, output_file, indent=2)
+          # 将结果写入 mds_aaguid.json
+          with open('mds_aaguid.json', 'w') as output_file:
+              json.dump(result_dict, output_file, indent=2)
 
       # 提交并推送更改
       - name: Commit and Push Changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add combined_aaguid.json
+          git add mds_aaguid.json
           git commit -m "bot: Updated AAGUIDs on $(date -u +"%Y-%m-%dT%H:%M:%SZ"), ${{ env.COMMIT_MSG }}" -a || echo "No changes to commit"
           git push
