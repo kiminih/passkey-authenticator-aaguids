@@ -103,6 +103,7 @@ jobs:
           python <<EOF
           import json
           from datetime import datetime
+          import os
 
           # 加载新的 AAGUID 数据
           with open('mds_aaguid.json', 'r') as f:
