@@ -20,6 +20,27 @@ jobs:
         with:
           persist-credentials: true # 确保使用 GITHUB_TOKEN 进行身份验证
 
+      # 备份现有的 passkey_aaguid.json（如果存在）
+      - name: Backup existing passkey_aaguid.json
+        run: |
+          if [ -f "passkey_aaguid.json" ]; then
+            mkdir -p backup
+            mv mds_aaguid.json backup/passkey_aaguid.json
+            echo "Existing passkey_aaguid.json has been moved to backup/passkey_aaguid.json"
+          else
+            echo "No existing passkey_aaguid.json found. Skipping backup."
+          fi
+
+      # 可选：确认备份是否成功
+      - name: Verify Backup
+        run: |
+          if [ -f "backup/passkey_aaguid.json" ]; then
+            echo "Backup verified: backup/passkey_aaguid.json exists."
+          else
+            echo "Backup failed: backup/passkey_aaguid.json does not exist."
+            exit 1
+          fi
+          
       # 设置 Python 环境
       - name: Set up Python
         uses: actions/setup-python@v4
