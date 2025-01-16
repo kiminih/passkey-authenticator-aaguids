@@ -100,15 +100,15 @@
     "aaguid": "cc45f64e-52a2-451b-831a-4edd8022a202"
   },
   {
-    "name": "iPasswords",
-    "aaguid": "bfc748bb-3429-4faa-b9f9-7cfa9f3b76d0"
-  },
-  {
-    "name": "Zoho Vault",
-    "aaguid": "b35a26b2-8f6e-4697-ab1d-d44db4da28c6"
-  },
-  {
     "name": "LastPass",
     "aaguid": "b78a0a55-6ef8-d246-a042-ba0f6d55050c"
+  },
+  {
+    "name": "Devolutions",
+    "aaguid": "de503f9c-21a4-4f76-b4b7-558eb55c6f89"
+  },
+  {
+    "name": "LogMeOnce",
+    "aaguid": "22248c4c-7a12-46e2-9a41-44291b373a4d"
   }
 ]
