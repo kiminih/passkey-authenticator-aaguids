@@ -25,7 +25,7 @@ jobs:
         run: |
           if [ -f "passkey_aaguid.json" ]; then
             mkdir -p backup
-            mv mds_aaguid.json backup/passkey_aaguid.json
+            mv passkey_aaguid.json backup/passkey_aaguid.json
             echo "Existing passkey_aaguid.json has been moved to backup/passkey_aaguid.json"
           else
             echo "No existing passkey_aaguid.json found. Skipping backup."
