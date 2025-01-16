@@ -28,6 +28,16 @@ jobs:
             echo "No existing mds_aaguid.json found. Skipping backup."
           fi
 
+      # 可选：确认备份是否成功
+      - name: Verify Backup
+        run: |
+          if [ -f "backup/mds_aaguid.json" ]; then
+            echo "Backup verified: backup/mds_aaguid.json exists."
+          else
+            echo "Backup failed: backup/mds_aaguid.json does not exist."
+            exit 1
+          fi
+
       # 设置 Python 环境
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -83,4 +93,21 @@ jobs:
           ]
 
           # 将结果写入 mds_aaguid.json
-        
+          with open('mds_aaguid.json', 'w') as output_file:
+              json.dump(fido2_statements, output_file, indent=2)
+          EOF
+
+      # 提交并推送更改
+      - name: Commit and Push Changes
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add mds_aaguid.json backup/mds_aaguid.json
+          git commit -m "bot: Updated AAGUIDs on $(date -u +"%Y-%m-%dT%H:%M:%SZ"), ${{ env.COMMIT_MSG }}" -a || echo "No changes to commit"
+          
+          # 使用 GITHUB_TOKEN 进行身份验证
+          git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git
+          
+          git push
