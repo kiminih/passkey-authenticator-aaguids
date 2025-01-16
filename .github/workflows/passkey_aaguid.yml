@@ -128,7 +128,7 @@ jobs:
 
           # 为每个新条目添加写入时间
           for entry in new_entries:
-              entry['write_time'] = current_time
+              entry['added_at'] = current_time
 
           # 将新的 AAGUID 条目写入 new_passkey_aaguid.json
           with open('new_passkey_aaguid.json', 'w') as f:
