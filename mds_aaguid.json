@@ -1,5 +1,9 @@
 [
   {
+    "name": "Ledger Nano X FIDO2 Authenticator",
+    "aaguid": "fcb1bcb4-f370-078c-6993-bc24d0ae3fbe"
+  },
+  {
     "name": "Thales IDPrime FIDO Bio",
     "aaguid": "4d41190c-7beb-4a84-8018-adf265a6352d"
   },
