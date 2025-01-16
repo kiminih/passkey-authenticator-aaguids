@@ -30,6 +30,7 @@ jobs:
       - name: Fetch and Process MDS Data
         id: process_mds
         run: |
+          python <<EOF
           import os
           import requests
           import base64
@@ -78,6 +79,7 @@ jobs:
           # 将结果写入 mds_aaguid.json
           with open('mds_aaguid.json', 'w') as output_file:
               json.dump(result_dict, output_file, indent=2)
+          EOF
 
       # 提交并推送更改
       - name: Commit and Push Changes
