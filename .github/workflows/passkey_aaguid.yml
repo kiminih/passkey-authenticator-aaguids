@@ -1,0 +1,117 @@
+name: Daily Download and Process Passkey AAGUIDs
+
+# 设置所需权限，允许写入仓库内容
+permissions:
+  contents: write
+
+on:
+  schedule:
+    - cron: '0 1 * * *' # 每天 UTC 时间 01:00 执行
+  workflow_dispatch: # 允许手动触发
+
+jobs:
+  fetch-passkey-aaguid:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 检出仓库代码
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          persist-credentials: true # 确保使用 GITHUB_TOKEN 进行身份验证
+
+      # 设置 Python 环境
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x' # 使用最新的 Python 3 版本
+
+      # 安装必要的 Python 包
+      - name: Install Python packages
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
+
+      # 获取并处理 Passkey AAGUIDs
+      - name: Fetch and Process Passkey AAGUIDs
+        id: process_passkey_aaguid
+        run: |
+          python <<EOF
+          import os
+          import requests
+          import json
+          import hashlib
+
+          # 远程 aaguid.json 文件的 URL
+          url = "https://raw.githubusercontent.com/passkeydeveloper/passkey-authenticator-aaguids/main/aaguid.json"
+
+          # 下载 JSON 数据
+          response = requests.get(url)
+          if response.status_code != 200:
+              raise Exception(f"Failed to download aaguid.json: {response.status_code}")
+
+          aaguid_data = response.json()
+
+          # 提取包含 'passkey' 的 AAGUID
+          passkey_aaguid_list = []
+          for aaguid, details in aaguid_data.items():
+              name = details.get("name", "")
+              if "passkey" in name.lower():
+                  passkey_aaguid_list.append({
+                      "name": name,
+                      "aaguid": aaguid
+                  })
+
+          # 将结果转换为 JSON 字符串
+          new_json = json.dumps(passkey_aaguid_list, indent=2)
+
+          # 读取现有的 passkey_aaguid.json（如果存在）
+          if os.path.exists('passkey_aaguid.json'):
+              with open('passkey_aaguid.json', 'r') as f:
+                  existing_json = f.read()
+          else:
+              existing_json = ''
+
+          # 比较内容是否有变化
+          if hashlib.sha256(new_json.encode()).hexdigest() != hashlib.sha256(existing_json.encode()).hexdigest():
+              # 内容有变化，写入文件
+              with open('passkey_aaguid.json', 'w') as outfile:
+                  outfile.write(new_json)
+              changes = True
+              print("Changes detected and passkey_aaguid.json updated.")
+          else:
+              # 内容无变化，不做任何操作
+              print("No changes detected in passkey_aaguid.json.")
+              changes = False
+
+          # 设置提交消息
+          if changes:
+              commit_msg = f"Updated passkey_aaguid.json with {len(passkey_aaguid_list)} entries."
+          else:
+              commit_msg = "No changes detected in passkey_aaguid.json."
+
+          # 将提交消息输出到 GITHUB_OUTPUT
+          with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
+              f.write(f"commit_msg={commit_msg}\n")
+          EOF
+
+      # 提交并推送更改
+      - name: Commit and Push Changes
+        if: steps.process_passkey_aaguid.outputs.commit_msg != 'No changes detected in passkey_aaguid.json.'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+
+          # 添加生成的文件
+          git add passkey_aaguid.json
+
+          # 提交更改
+          git commit -m "bot: ${{ steps.process_passkey_aaguid.outputs.commit_msg }}" -a
+
+          # 使用 GITHUB_TOKEN 进行身份验证
+          git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git
+
+          # 推送到当前分支
+          git push
