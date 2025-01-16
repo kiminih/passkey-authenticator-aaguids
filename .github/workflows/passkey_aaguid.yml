@@ -99,4 +99,4 @@ jobs:
           git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git
 
           # 推送到当前分支
-          git push
+          git push origin
