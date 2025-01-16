@@ -1,0 +1,98 @@
+name: Daily Download and Process FIDO MDS AAGUID
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # 每天 UTC 时间午夜执行
+  workflow_dispatch: # 允许手动触发
+
+jobs:
+  fetch-and-process-mds:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 检出仓库代码
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # 设置 Python 环境
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      # 安装必要的 Python 包
+      - name: Install Python packages
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
+
+      # 运行 Python 脚本处理 MDS 数据
+      - name: Fetch and Process MDS Data
+        id: process_mds
+        run: |
+          import os
+          import requests
+          import base64
+          import json
+
+          # 下载 MDS Blob
+          response = requests.get("https://mds.fidoalliance.org/")
+          if response.status_code != 200:
+              raise Exception(f"Failed to download MDS Blob: {response.status_code}")
+
+          mds_jwt = response.content.decode('ascii')
+
+          # 解析 JWT Payload
+          jwt_payload = mds_jwt.split('.')[1]
+          jwt_payload += '=' * (-len(jwt_payload) % 4)  # 修正 Base64 编码
+          mds_bytes = base64.urlsafe_b64decode(jwt_payload)
+          mds_data = json.loads(mds_bytes.decode('utf-8'))
+
+          # 获取 MDS 版本和下次更新时间
+          mds_number = mds_data.get('no', 'unknown')
+          mds_next = mds_data.get('nextUpdate', 'unknown')
+
+          # 设置 Commit 消息
+          commit_msg = f"from MDS file version {mds_number}, next update expected {mds_next}."
+          with open(os.environ['GITHUB_ENV'], 'a') as env_file:
+              env_file.write(f"COMMIT_MSG={commit_msg}\n")
+
+          # 提取包含 AAGUID 的 FIDO2 语句
+          fido2_statements = [
+              entry['metadataStatement']
+              for entry in mds_data.get('entries', [])
+              if entry.get('aaguid') is not None
+          ]
+
+          # 创建 AAGUID 对应名称的字典
+          result_dict = {}
+          for statement in fido2_statements:
+              aaguid = statement.get('aaguid')
+              if aaguid:
+                  result_dict[aaguid] = {
+                      "name": statement.get('description', 'No Description'),
+                      "icon_light": statement.get('icon', None),
+                      "icon_dark": statement.get('icon', None)
+                  }
+
+          # 合并自定义 aaguid.json（如果存在）
+          aaguid_path = 'aaguid.json'
+          if os.path.exists(aaguid_path):
+              with open(aaguid_path, 'r') as aaguid_file:
+                  custom_aaguid = json.load(aaguid_file)
+              result = {**result_dict, **custom_aaguid}
+          else:
+              result = result_dict
+
+          # 将结果写入 combined_aaguid.json
+          with open('combined_aaguid.json', 'w') as output_file:
+              json.dump(result, output_file, indent=2)
+
+      # 提交并推送更改
+      - name: Commit and Push Changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add combined_aaguid.json
+          git commit -m "bot: Updated AAGUIDs on $(date -u +"%Y-%m-%dT%H:%M:%SZ"), ${{ env.COMMIT_MSG }}" -a || echo "No changes to commit"
+          git push
