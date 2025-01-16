@@ -71,9 +71,7 @@ jobs:
               aaguid = statement.get('aaguid')
               if aaguid:
                   result_dict[aaguid] = {
-                      "name": statement.get('description', 'No Description'),
-                      "icon_light": statement.get('icon', None),
-                      "icon_dark": statement.get('icon', None)
+                      "name": statement.get('description', 'No Description')
                   }
 
           # 将结果写入 mds_aaguid.json
