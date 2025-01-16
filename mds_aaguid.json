@@ -4,6 +4,14 @@
     "aaguid": "fcb1bcb4-f370-078c-6993-bc24d0ae3fbe"
   },
   {
+    "name": "Thales IDPrime FIDO Bio",
+    "aaguid": "4d41190c-7beb-4a84-8018-adf265a6352d"
+  },
+  {
+    "name": "Security Key NFC by Yubico - Enterprise Edition Preview",
+    "aaguid": "2772ce93-eb4b-4090-8b73-330f48477d73"
+  },
+  {
     "name": "Dapple Authenticator from Dapple Security Inc.",
     "aaguid": "6dae43be-af9c-417b-8b9f-1b611168ec60"
   },
