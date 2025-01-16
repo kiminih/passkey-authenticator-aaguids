@@ -100,6 +100,43 @@ jobs:
               f.write(f"commit_msg={commit_msg}\n")
           EOF
 
+      # 比对并生成 new_passkey_aaguid.json
+      - name: Identify New AAGUIDs
+        run: |
+          python <<EOF
+          import json
+          import os
+          from datetime import datetime
+
+          # 加载新的 passkey_aaguid.json
+          with open('passkey_aaguid.json', 'r') as f:
+              current_data = json.load(f)
+          current_aaguids = set(item['aaguid'] for item in current_data)
+
+          # 尝试加载备份的 passkey_aaguid.json
+          backup_aaguids = set()
+          if os.path.exists('backup/passkey_aaguid.json'):
+              with open('backup/passkey_aaguid.json', 'r') as f:
+                  backup_data = json.load(f)
+              backup_aaguids = set(item['aaguid'] for item in backup_data)
+
+          # 识别新的 AAGUID 条目
+          new_entries = [item for item in current_data if item['aaguid'] not in backup_aaguids]
+
+          # 获取当前 UTC 时间
+          current_time = datetime.utcnow().isoformat() + 'Z'  # ISO 8601 格式
+
+          # 为每个新条目添加写入时间
+          for entry in new_entries:
+              entry['write_time'] = current_time
+
+          # 将新的 AAGUID 条目写入 new_passkey_aaguid.json
+          with open('new_passkey_aaguid.json', 'w') as f:
+              json.dump(new_entries, f, indent=2)
+
+          print(f"Identified {len(new_entries)} new AAGUID entries and wrote to new_passkey_aaguid.json.")
+          EOF
+
       # 提交并推送更改
       - name: Commit and Push Changes
         env:
@@ -107,15 +144,11 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-
           # 添加生成的文件
-          git add passkey_aaguid.json
-
+          git add passkey_aaguid.json new_passkey_aaguid.json
           # 提交更改
           git commit -m "bot: ${{ steps.process_aaguid.outputs.commit_msg }}" -a || echo "No changes to commit"
-
           # 使用 GITHUB_TOKEN 进行身份验证
           git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git
-
           # 推送到当前分支
           git push origin
