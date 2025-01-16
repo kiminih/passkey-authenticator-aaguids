@@ -97,6 +97,48 @@ jobs:
               json.dump(fido2_statements, output_file, indent=2)
           EOF
 
+      # 比对 AAGUID 并生成 new_mds_aaguid.json
+      - name: Compare AAGUIDs and Generate New Entries
+        run: |
+          python <<EOF
+          import json
+          from datetime import datetime
+
+          # 加载新的 AAGUID 数据
+          with open('mds_aaguid.json', 'r') as f:
+              new_data = json.load(f)
+
+          # 加载备份的 AAGUID 数据
+          backup_file = 'backup/mds_aaguid.json'
+          if os.path.exists(backup_file):
+              with open(backup_file, 'r') as f:
+                  backup_data = json.load(f)
+          else:
+              backup_data = []
+
+          # 创建集合用于快速查找
+          backup_aaguid_set = set(entry['aaguid'] for entry in backup_data)
+
+          # 找出新的 AAGUID 条目
+          new_entries = [
+              {
+                  "aaguid": entry["aaguid"],
+                  "name": entry["name"],
+                  "added_at": datetime.utcnow().isoformat() + 'Z'
+              }
+              for entry in new_data
+              if entry["aaguid"] not in backup_aaguid_set
+          ]
+
+          # 写入 new_mds_aaguid.json
+          if new_entries:
+              with open('new_mds_aaguid.json', 'w') as f:
+                  json.dump(new_entries, f, indent=2)
+              print(f"Found {len(new_entries)} new AAGUID entries.")
+          else:
+              print("No new AAGUID entries found.")
+          EOF
+
       # 提交并推送更改
       - name: Commit and Push Changes
         env:
@@ -104,8 +146,13 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add mds_aaguid.json
-          git commit -m "bot: Updated AAGUIDs on $(date -u +"%Y-%m-%dT%H:%M:%SZ"), ${{ env.COMMIT_MSG }}" -a || echo "No changes to commit"
+          
+          git add mds_aaguid.json new_mds_aaguid.json
+          
+          # 构建提交消息
+          COMMIT_MESSAGE="bot: Updated AAGUIDs on $(date -u +"%Y-%m-%dT%H:%M:%SZ"), ${{ env.COMMIT_MSG }}"
+          
+          git commit -m "$COMMIT_MESSAGE" -a || echo "No changes to commit"
           
           # 使用 GITHUB_TOKEN 进行身份验证
           git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git
