@@ -1,5 +1,9 @@
 [
   {
+    "name": "Google Password Manager",
+    "aaguid": "ea9b8d66-4d01-1d21-3ce4-b6b48cb575d4"
+  },
+  {
     "name": "Chrome on Mac",
     "aaguid": "adce0002-35bc-c60a-648b-0b25f1f05503"
   },
@@ -18,6 +22,10 @@
   {
     "name": "iCloud Keychain (Managed)",
     "aaguid": "dd4ec289-e01d-41c9-bb89-70fa845d4bf2"
+  },
+  {
+    "name": "Dashlane",
+    "aaguid": "531126d6-e717-415c-9320-3d9aa6981239"
   },
   {
     "name": "1Password",
