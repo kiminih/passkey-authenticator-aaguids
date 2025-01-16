@@ -40,7 +40,6 @@ jobs:
           import os
           import requests
           import json
-          import hashlib
 
           # 远程 aaguid.json 文件的 URL
           url = "https://raw.githubusercontent.com/passkeydeveloper/passkey-authenticator-aaguids/main/aaguid.json"
@@ -82,7 +81,6 @@ jobs:
 
       # 提交并推送更改
       - name: Commit and Push Changes
-        if: steps.process_passkey_aaguid.outputs.commit_msg != 'No changes detected in passkey_aaguid.json.'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -92,8 +90,8 @@ jobs:
           # 添加生成的文件
           git add passkey_aaguid.json
 
-          # 提交更改
-          git commit -m "bot: ${{ steps.process_passkey_aaguid.outputs.commit_msg }}" -a
+          # 提交更改，如果没有更改则跳过
+          git commit -m "bot: ${{ steps.process_passkey_aaguid.outputs.commit_msg }}" -a || echo "No changes to commit"
 
           # 使用 GITHUB_TOKEN 进行身份验证
           git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git
