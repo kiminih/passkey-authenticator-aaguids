@@ -40,6 +40,7 @@ jobs:
           import os
           import requests
           import json
+          import hashlib
 
           # 远程 aaguid.json 文件的 URL
           url = "https://raw.githubusercontent.com/passkeydeveloper/passkey-authenticator-aaguids/main/aaguid.json"
@@ -51,6 +52,10 @@ jobs:
 
           aaguid_data = response.json()
 
+          # 总条目数
+          total_entries = len(aaguid_data)
+          print(f"Total entries in aaguid.json: {total_entries}")
+
           # 提取包含 'passkey' 的 AAGUID
           passkey_aaguid_list = []
           for aaguid, details in aaguid_data.items():
@@ -61,18 +66,23 @@ jobs:
                       "aaguid": aaguid
                   })
 
+          # 提取的条目数
+          extracted_entries = len(passkey_aaguid_list)
+          print(f"Extracted passkey AAGUID entries: {extracted_entries}")
+
           # 将结果写入 passkey_aaguid.json
           with open('passkey_aaguid.json', 'w') as outfile:
               json.dump(passkey_aaguid_list, outfile, indent=2)
 
           # 设置提交消息
-          commit_msg = f"Updated passkey_aaguid.json with {len(passkey_aaguid_list)} entries."
+          commit_msg = f"Updated passkey_aaguid.json with {extracted_entries} entries."
           with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
               f.write(f"commit_msg={commit_msg}\n")
           EOF
 
       # 提交并推送更改
       - name: Commit and Push Changes
+        if: steps.process_passkey_aaguid.outputs.commit_msg != 'No changes detected in passkey_aaguid.json.'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -83,7 +93,7 @@ jobs:
           git add passkey_aaguid.json
 
           # 提交更改
-          git commit -m "bot: ${{ steps.process_passkey_aaguid.outputs.commit_msg }}" -a || echo "No changes to commit"
+          git commit -m "bot: ${{ steps.process_passkey_aaguid.outputs.commit_msg }}" -a
 
           # 使用 GITHUB_TOKEN 进行身份验证
           git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git
