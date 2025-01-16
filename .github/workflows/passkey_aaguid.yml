@@ -40,6 +40,7 @@ jobs:
           import os
           import requests
           import json
+          import re
 
           # 远程 aaguid.json 文件的 URL
           url = "https://raw.githubusercontent.com/passkeydeveloper/passkey-authenticator-aaguids/main/aaguid.json"
@@ -55,15 +56,22 @@ jobs:
           total_entries = len(aaguid_data)
           print(f"Total entries in aaguid.json: {total_entries}")
 
+          # 定义匹配模式
+          pattern = re.compile(r'\bpasskey\b', re.IGNORECASE)
+
           # 提取包含 'passkey' 的 AAGUID
           passkey_aaguid_list = []
           for aaguid, details in aaguid_data.items():
-              name = details.get("name", "")
-              if "passkey" in name.lower():
+              name = details.get("name", "").strip()
+              print(f"Processing AAGUID: {aaguid}, Name: '{name}'")
+              if pattern.search(name):
                   passkey_aaguid_list.append({
                       "name": name,
                       "aaguid": aaguid
                   })
+                  print(f"Matched: {name}")
+              else:
+                  print(f"Not matched: {name}")
 
           # 提取的条目数
           extracted_entries = len(passkey_aaguid_list)
@@ -97,4 +105,4 @@ jobs:
           git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git
 
           # 推送到当前分支
-          git push origin
+          git push 
