@@ -137,6 +137,8 @@ jobs:
                   json.dump(new_entries, f, indent=2)
               print(f"Found {len(new_entries)} new AAGUID entries.")
           else:
+              with open('new_mds_aaguid.json', 'w') as f:
+                  json.dump(new_entries, f, indent=2)
               print("No new AAGUID entries found.")
           EOF
 
