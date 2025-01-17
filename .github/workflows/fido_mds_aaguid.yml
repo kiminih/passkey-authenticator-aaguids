@@ -77,6 +77,11 @@ jobs:
           mds_number = mds_data.get('no', 'unknown')
           mds_next = mds_data.get('nextUpdate', 'unknown')
 
+          # 设置 Commit 消息
+          commit_msg = f"from MDS file version {mds_number}, next update expected {mds_next}."
+          with open(os.environ['GITHUB_ENV'], 'a') as env_file:
+              env_file.write(f"COMMIT_MSG={commit_msg}\n")
+
           # 提取包含 AAGUID 的 FIDO2 语句，并构建列表
           fido2_statements = [
               {
@@ -95,11 +100,6 @@ jobs:
           with open('mds_aaguid.json', 'w') as output_file:
               json.dump(fido2_statements, output_file, indent=2)
           EOF
-
-          # 设置 Commit 消息
-          commit_msg = f"from MDS file version {mds_number}, next update expected {mds_next}."
-          with open(os.environ['GITHUB_ENV'], 'a') as env_file:
-              env_file.write(f"COMMIT_MSG={commit_msg}\n")
 
       # 比对 AAGUID 并生成 new_mds_aaguid.json
       - name: Compare AAGUIDs and Generate New Entries
