@@ -432,6 +432,10 @@
     "aaguid": "692db549-7ae5-44d5-a1e5-dd20a493b723"
   },
   {
+    "name": "Cryptnox FIDO2.1",
+    "aaguid": "1d1b4e33-76a1-47fb-97a0-14b10d0933f1"
+  },
+  {
     "name": "Excelsecu eSecu FIDO2 PRO Security Key",
     "aaguid": "bbf4b6a7-679d-f6fc-c4f2-8ac0ddf9015a"
   },
@@ -490,6 +494,10 @@
   {
     "name": "YubiKey Bio FIDO Edition",
     "aaguid": "dd86a2da-86a0-4cbe-b462-4bd31f57bc6f"
+  },
+  {
+    "name": "GSTAG OAK FIDO2 Authenticator",
+    "aaguid": "773c30d9-5919-4e96-a4f5-db65e95cf890"
   },
   {
     "name": "YubiKey 5 Series with NFC Preview",
