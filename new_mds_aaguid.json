@@ -1,1 +1,17 @@
-[]
+[
+  {
+    "aaguid": "6e8d1eae-8d40-4c25-bcf8-4633959afc71",
+    "name": "Veridium iOS SDK",
+    "added_at": "2025-01-25T00:40:44.649220Z"
+  },
+  {
+    "aaguid": "5ea308b2-7ac7-48b9-ac09-7e2da9015f8c",
+    "name": "Veridium Android SDK",
+    "added_at": "2025-01-25T00:40:44.649240Z"
+  },
+  {
+    "aaguid": "46544d5d-8f5d-4db4-89ac-ea8977073fff",
+    "name": "Foongtone FIDO Authenticator",
+    "added_at": "2025-01-25T00:40:44.649246Z"
+  }
+]
