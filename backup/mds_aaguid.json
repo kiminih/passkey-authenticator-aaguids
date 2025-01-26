@@ -4,6 +4,10 @@
     "aaguid": "fcb1bcb4-f370-078c-6993-bc24d0ae3fbe"
   },
   {
+    "name": "Veridium iOS SDK",
+    "aaguid": "6e8d1eae-8d40-4c25-bcf8-4633959afc71"
+  },
+  {
     "name": "Thales IDPrime FIDO Bio",
     "aaguid": "4d41190c-7beb-4a84-8018-adf265a6352d"
   },
@@ -252,8 +256,16 @@
     "aaguid": "34744913-4f57-4e6e-a527-e9ec3c4b94e6"
   },
   {
+    "name": "Veridium Android SDK",
+    "aaguid": "5ea308b2-7ac7-48b9-ac09-7e2da9015f8c"
+  },
+  {
     "name": "GoTrust Idem Key FIDO2 Authenticator",
     "aaguid": "3b1adb99-0dfe-46fd-90b8-7f7614a4de2a"
+  },
+  {
+    "name": "Foongtone FIDO Authenticator",
+    "aaguid": "46544d5d-8f5d-4db4-89ac-ea8977073fff"
   },
   {
     "name": "OnlyKey Secp256R1 FIDO2 CTAP2 Authenticator",
