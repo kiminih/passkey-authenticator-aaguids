@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "aaguid": "c89e6a38-6c00-5426-5aa5-c9cbf48f0382",
+    "name": "ACS FIDO Authenticator NFC",
+    "added_at": "2025-02-20T00:43:24.925056Z"
+  },
+  {
+    "aaguid": "882adaf5-3aa9-4708-8e7d-3957103775b4",
+    "name": "T-Shield TrustSec FIDO2 Bio and client PIN version",
+    "added_at": "2025-02-20T00:43:24.925069Z"
+  }
+]

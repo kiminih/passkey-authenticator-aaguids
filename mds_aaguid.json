@@ -296,6 +296,10 @@
     "aaguid": "8681a073-5f50-4d52-bce4-e21658d207b3"
   },
   {
+    "name": "ACS FIDO Authenticator NFC",
+    "aaguid": "c89e6a38-6c00-5426-5aa5-c9cbf48f0382"
+  },
+  {
     "name": "YubiKey 5 Series with Lightning",
     "aaguid": "a02167b9-ae71-4ac7-9a07-06432ebb6f1c"
   },
@@ -378,6 +382,10 @@
   {
     "name": "YubiKey Bio Series - Multi-protocol Edition (Enterprise Profile)",
     "aaguid": "6ec5cff2-a0f9-4169-945b-f33b563f7b99"
+  },
+  {
+    "name": "T-Shield TrustSec FIDO2 Bio and client PIN version",
+    "aaguid": "882adaf5-3aa9-4708-8e7d-3957103775b4"
   },
   {
     "name": "FIDO KeyPass S3",
