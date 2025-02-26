@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "aaguid": "e41b42a3-60ac-4afb-8757-a98f2d7f6c9f",
+    "name": "SafeKey/Classic (FP)",
+    "added_at": "2025-02-26T00:43:37.775271Z"
+  },
+  {
+    "aaguid": "b12eac35-586c-4809-a4b1-d81af6c305cf",
+    "name": "SafeKey/Classic (NFC)",
+    "added_at": "2025-02-26T00:43:37.775296Z"
+  }
+]

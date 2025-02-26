@@ -296,6 +296,10 @@
     "aaguid": "8681a073-5f50-4d52-bce4-e21658d207b3"
   },
   {
+    "name": "SafeKey/Classic (FP)",
+    "aaguid": "e41b42a3-60ac-4afb-8757-a98f2d7f6c9f"
+  },
+  {
     "name": "ACS FIDO Authenticator NFC",
     "aaguid": "c89e6a38-6c00-5426-5aa5-c9cbf48f0382"
   },
@@ -626,6 +630,10 @@
   {
     "name": "Windows Hello Software Authenticator",
     "aaguid": "6028b017-b1d4-4c02-b4b3-afcdafc96bb2"
+  },
+  {
+    "name": "SafeKey/Classic (NFC)",
+    "aaguid": "b12eac35-586c-4809-a4b1-d81af6c305cf"
   },
   {
     "name": "OneSpan FIDO Touch",
