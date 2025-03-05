@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "aaguid": "7787a482-13e8-4784-8a06-c7ed49a7aaf4",
+    "name": "Swissbit iShield Key 2",
+    "added_at": "2025-03-05T00:44:51.605460Z"
+  },
+  {
+    "aaguid": "817cdab8-0d51-4de1-a821-e25b88519cf3",
+    "name": "Swissbit iShield Key 2 FIPS",
+    "added_at": "2025-03-05T00:44:51.605478Z"
+  },
+  {
+    "aaguid": "5eaff75a-dd43-451f-af9f-87c9eeae293e",
+    "name": "Swissbit iShield Key 2 FIPS Enterprise",
+    "added_at": "2025-03-05T00:44:51.605491Z"
+  },
+  {
+    "aaguid": "e400ef8c-711d-4692-af46-7f2cf7da23ad",
+    "name": "Swissbit iShield Key 2 Enterprise",
+    "added_at": "2025-03-05T00:44:51.605508Z"
+  }
+]

@@ -152,6 +152,10 @@
     "aaguid": "ad08c78a-4e41-49b9-86a2-ac15b06899e2"
   },
   {
+    "name": "Swissbit iShield Key 2",
+    "aaguid": "7787a482-13e8-4784-8a06-c7ed49a7aaf4"
+  },
+  {
     "name": "Security Key NFC by Yubico - Enterprise Edition (Enterprise Profile)",
     "aaguid": "72c6b72d-8512-4c66-8359-9d3d10d9222f"
   },
@@ -270,6 +274,10 @@
   {
     "name": "OnlyKey Secp256R1 FIDO2 CTAP2 Authenticator",
     "aaguid": "998f358b-2dd2-4cbe-a43a-e8107438dfb3"
+  },
+  {
+    "name": "Swissbit iShield Key 2 FIPS",
+    "aaguid": "817cdab8-0d51-4de1-a821-e25b88519cf3"
   },
   {
     "name": "eWBM eFPA FIDO2 Authenticator",
@@ -454,6 +462,10 @@
   {
     "name": "OneSpan DIGIPASS FX7",
     "aaguid": "30b5035e-d297-4ff7-b00b-addc96ba6a98"
+  },
+  {
+    "name": "Swissbit iShield Key 2 FIPS Enterprise",
+    "aaguid": "5eaff75a-dd43-451f-af9f-87c9eeae293e"
   },
   {
     "name": "ZTPass SmartAuth",
@@ -866,6 +878,10 @@
   {
     "name": "ellipticSecure MIRkey USB Authenticator",
     "aaguid": "eb3b131e-59dc-536a-d176-cb7306da10f5"
+  },
+  {
+    "name": "Swissbit iShield Key 2 Enterprise",
+    "aaguid": "e400ef8c-711d-4692-af46-7f2cf7da23ad"
   },
   {
     "name": "Atos CardOS FIDO2",
