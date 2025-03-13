@@ -1,1 +1,17 @@
-[]
+[
+  {
+    "aaguid": "1e906e14-77af-46bc-ae9f-fe6ef18257e4",
+    "name": "VeridiumID Passkey iOS SDK",
+    "added_at": "2025-03-13T00:45:24.916266Z"
+  },
+  {
+    "aaguid": "8d4378b0-725d-4432-b3c2-01fcdaf46286",
+    "name": "VeridiumID Passkey Android SDK",
+    "added_at": "2025-03-13T00:45:24.916279Z"
+  },
+  {
+    "aaguid": "57235694-51a5-4a4d-a81a-f42185df6502",
+    "name": "SHALO AUTH",
+    "added_at": "2025-03-13T00:45:24.916288Z"
+  }
+]

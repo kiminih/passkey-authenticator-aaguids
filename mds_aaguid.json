@@ -416,6 +416,10 @@
     "aaguid": "b93fd961-f2e6-462f-b122-82002247de78"
   },
   {
+    "name": "VeridiumID Passkey iOS SDK",
+    "aaguid": "1e906e14-77af-46bc-ae9f-fe6ef18257e4"
+  },
+  {
     "name": "YubiKey 5 Series with NFC",
     "aaguid": "2fc0579f-8113-47ea-b116-bb5a8db9202a"
   },
@@ -582,6 +586,10 @@
   {
     "name": "Security Key NFC by Yubico",
     "aaguid": "e77e3c64-05e3-428b-8824-0cbeb04b829d"
+  },
+  {
+    "name": "VeridiumID Passkey Android SDK",
+    "aaguid": "8d4378b0-725d-4432-b3c2-01fcdaf46286"
   },
   {
     "name": "YubiKey Bio Series - FIDO Edition",
@@ -778,6 +786,10 @@
   {
     "name": "HYPR FIDO2 Authenticator",
     "aaguid": "0076631b-d4a0-427f-5773-0ec71c9e0279"
+  },
+  {
+    "name": "SHALO AUTH",
+    "aaguid": "57235694-51a5-4a4d-a81a-f42185df6502"
   },
   {
     "name": "YubiKey 5 Series with Lightning",
