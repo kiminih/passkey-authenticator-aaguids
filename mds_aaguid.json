@@ -148,7 +148,7 @@
     "aaguid": "ce6bf97f-9f69-4ba7-9032-97adc6ca5cf1"
   },
   {
-    "name": "YubiKey Bio Series - FIDO Edition",
+    "name": "YubiKey Bio Series - FIDO Edition (Enterprise Profile)",
     "aaguid": "ad08c78a-4e41-49b9-86a2-ac15b06899e2"
   },
   {
@@ -242,6 +242,10 @@
   {
     "name": "YubiKey 5 FIPS Series",
     "aaguid": "73bb0cd4-e502-49b8-9c6f-b59445bf720b"
+  },
+  {
+    "name": "Feitian ePass FIDO-NFC (Enterprise Profile) (CTAP2.1, CTAP2.0, U2F)",
+    "aaguid": "39589099-9a75-49fc-afaa-801ca211c62a"
   },
   {
     "name": "Security Key by Yubico with NFC",
@@ -762,6 +766,10 @@
   {
     "name": "VinCSS FIDO2 Authenticator",
     "aaguid": "5fdb81b8-53f0-4967-a881-f5ec26fe4d18"
+  },
+  {
+    "name": "Feitian ePass FIDO-NFC(CTAP2.1, CTAP2.0, U2F)",
+    "aaguid": "78ba3993-d784-4f44-8d6e-cc0a8ad5230e"
   },
   {
     "name": "YubiKey 5 FIPS Series",
