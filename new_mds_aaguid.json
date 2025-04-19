@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "aaguid": "1d8cac46-47a1-3386-af50-e88ae46fe802",
+    "name": "Ledger Flex FIDO2 Authenticator",
+    "added_at": "2025-04-19T00:45:04.582299Z"
+  },
+  {
+    "aaguid": "6e24d385-004a-16a0-7bfe-efd963845b34",
+    "name": "Ledger Stax FIDO2 Authenticator",
+    "added_at": "2025-04-19T00:45:04.582324Z"
+  }
+]
