@@ -544,6 +544,10 @@
     "aaguid": "88bbd2f0-342a-42e7-9729-dd158be5407a"
   },
   {
+    "name": "Ledger Flex FIDO2 Authenticator",
+    "aaguid": "1d8cac46-47a1-3386-af50-e88ae46fe802"
+  },
+  {
     "name": "YubiKey Bio Series - FIDO Edition",
     "aaguid": "dd86a2da-86a0-4cbe-b462-4bd31f57bc6f"
   },
@@ -822,6 +826,10 @@
   {
     "name": "YubiKey Bio Series - Multi-protocol Edition (Enterprise Profile)",
     "aaguid": "97e6a830-c952-4740-95fc-7c78dc97ce47"
+  },
+  {
+    "name": "Ledger Stax FIDO2 Authenticator",
+    "aaguid": "6e24d385-004a-16a0-7bfe-efd963845b34"
   },
   {
     "name": "YubiKey 5 Series",
