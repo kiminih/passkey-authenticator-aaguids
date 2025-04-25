@@ -1,7 +1,17 @@
 [
   {
-    "aaguid": "3fd410dc-8ab7-4b86-a1cb-c7174620b2dc",
-    "name": "IDEMIA SOLVO Fly 80 R1 FIDO Card Draft",
-    "added_at": "2025-04-24T00:48:46.204746Z"
+    "aaguid": "f8d5c4e9-e539-4c06-8662-ec2a4155a555",
+    "name": "StarSign Key Fob",
+    "added_at": "2025-04-25T00:48:55.062782Z"
+  },
+  {
+    "aaguid": "912435d9-4a88-42f3-972d-1244b0d51420",
+    "name": "SI0X FIDO CL WRIST v1.0",
+    "added_at": "2025-04-25T00:48:55.062796Z"
+  },
+  {
+    "aaguid": "c89674e3-a765-4b07-888a-7c086fbdf04b",
+    "name": "StarSign FIDO Card",
+    "added_at": "2025-04-25T00:48:55.062821Z"
   }
 ]

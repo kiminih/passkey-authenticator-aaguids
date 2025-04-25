@@ -104,6 +104,10 @@
     "aaguid": "931327dd-c89b-406c-a81e-ed7058ef36c6"
   },
   {
+    "name": "StarSign Key Fob",
+    "aaguid": "f8d5c4e9-e539-4c06-8662-ec2a4155a555"
+  },
+  {
     "name": "Security Key NFC by Yubico",
     "aaguid": "b7d3f68e-88a6-471e-9ecf-2df26d041ede"
   },
@@ -234,6 +238,10 @@
   {
     "name": "Pone Biometrics OFFPAD Authenticator",
     "aaguid": "09591fc6-9811-48f7-8f57-b9f23df6413f"
+  },
+  {
+    "name": "SI0X FIDO CL WRIST v1.0",
+    "aaguid": "912435d9-4a88-42f3-972d-1244b0d51420"
   },
   {
     "name": "RSA DS100",
@@ -942,5 +950,9 @@
   {
     "name": "Feitian ePass FIDO2 Authenticator",
     "aaguid": "833b721a-ff5f-4d00-bb2e-bdda3ec01e29"
+  },
+  {
+    "name": "StarSign FIDO Card",
+    "aaguid": "c89674e3-a765-4b07-888a-7c086fbdf04b"
   }
 ]
