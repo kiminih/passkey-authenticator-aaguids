@@ -508,6 +508,10 @@
     "aaguid": "23786452-f02d-4344-87ed-aaf703726881"
   },
   {
+    "name": "Ideem ZSM FIDO2 Authenticator",
+    "aaguid": "5e264d9d-28ef-4d34-95b4-5941e7a4faa8"
+  },
+  {
     "name": "YubiKey 5 FIPS Series (RC Preview)",
     "aaguid": "d2fbd093-ee62-488d-9dad-1e36389f8826"
   },
