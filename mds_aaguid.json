@@ -384,6 +384,10 @@
     "aaguid": "ed042a3a-4b22-4455-bb69-a267b652ae7e"
   },
   {
+    "name": "YubiKey 5 Series with NFC - Enhanced PIN (Enterprise Profile)",
+    "aaguid": "b2c1a50b-dad8-4dc7-ba4d-0ce9597904bc"
+  },
+  {
     "name": "YubiKey 5 FIPS Series with Lightning",
     "aaguid": "85203421-48f9-4355-9bc8-8a53846e5083"
   },
@@ -518,6 +522,10 @@
   {
     "name": "Feitian ePass FIDO2-NFC Series (CTAP2.1, CTAP2.0, U2F)",
     "aaguid": "234cd403-35a2-4cc2-8015-77ea280c77f5"
+  },
+  {
+    "name": "YubiKey 5 Series with NFC - Enhanced PIN",
+    "aaguid": "662ef48a-95e2-4aaa-a6c1-5b9c40375824"
   },
   {
     "name": "HID Crescendo C2300",
