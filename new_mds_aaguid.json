@@ -1,1 +1,17 @@
-[]
+[
+  {
+    "aaguid": "9eb7eabc-9db5-49a1-b6c3-555a802093f4",
+    "name": "YubiKey 5 Series with NFC 2093F4",
+    "added_at": "2025-05-17T00:49:32.369442Z"
+  },
+  {
+    "aaguid": "a7fc3f84-86a3-4da4-a3d7-eb6485a066d8",
+    "name": "NEOWAVE Badgeo FIDO2 (CTAP 2.1)",
+    "added_at": "2025-05-17T00:49:32.369464Z"
+  },
+  {
+    "aaguid": "2c2aeed8-8174-4159-814b-486e92a261d0",
+    "name": "NEOWAVE WINKEO V2.0",
+    "added_at": "2025-05-17T00:49:32.369472Z"
+  }
+]

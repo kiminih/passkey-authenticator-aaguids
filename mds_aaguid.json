@@ -8,6 +8,10 @@
     "aaguid": "6e8d1eae-8d40-4c25-bcf8-4633959afc71"
   },
   {
+    "name": "YubiKey 5 Series with NFC 2093F4",
+    "aaguid": "9eb7eabc-9db5-49a1-b6c3-555a802093f4"
+  },
+  {
     "name": "Thales IDPrime FIDO Bio",
     "aaguid": "4d41190c-7beb-4a84-8018-adf265a6352d"
   },
@@ -596,6 +600,10 @@
     "aaguid": "ca87cb70-4c1b-4579-a8e8-4efdd7c007e0"
   },
   {
+    "name": "NEOWAVE Badgeo FIDO2 (CTAP 2.1)",
+    "aaguid": "a7fc3f84-86a3-4da4-a3d7-eb6485a066d8"
+  },
+  {
     "name": "YubiKey 5 FIPS Series with Lightning (RC Preview)",
     "aaguid": "9e66c661-e428-452a-a8fb-51f7ed088acf"
   },
@@ -766,6 +774,10 @@
   {
     "name": "WiSECURE AuthTron USB FIDO2 Authenticator",
     "aaguid": "504d7149-4e4c-3841-4555-55445a677357"
+  },
+  {
+    "name": "NEOWAVE WINKEO V2.0",
+    "aaguid": "2c2aeed8-8174-4159-814b-486e92a261d0"
   },
   {
     "name": "ID-One Key",
