@@ -268,6 +268,10 @@
     "aaguid": "149a2021-8ef6-4133-96b8-81f8d5b7f1f5"
   },
   {
+    "name": "Ensurity AUTH TouchPro",
+    "aaguid": "50cbf15a-238c-4457-8f16-812c43bf3c49"
+  },
+  {
     "name": "YubiKey 5 Series with Lightning (Enterprise Profile)",
     "aaguid": "b90e7dc1-316e-4fee-a25a-56a666a670fe"
   },
@@ -556,6 +560,10 @@
     "aaguid": "20ac7a17-c814-4833-93fe-539f0d5e3389"
   },
   {
+    "name": "VinCSS FIDO2 Fingerprint",
+    "aaguid": "9012593f-43e4-4461-a97a-d92777b55d74"
+  },
+  {
     "name": "YubiKey 5 Series with NFC",
     "aaguid": "d7781e5d-e353-46aa-afe2-3ca49f13332a"
   },
@@ -710,6 +718,10 @@
   {
     "name": "Security Key by Yubico with NFC",
     "aaguid": "6d44ba9b-f6ec-2e49-b930-0c8fe920cb73"
+  },
+  {
+    "name": "Ensurity AUTH BioPro Desktop",
+    "aaguid": "9eb85bb6-9625-4a72-815d-0487830ccab2"
   },
   {
     "name": "Allthenticator Android App: roaming BLE FIDO2 Allthenticator for Windows, Mac, Linux, and Allthenticate door readers",
