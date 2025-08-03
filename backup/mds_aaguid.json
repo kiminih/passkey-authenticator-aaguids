@@ -444,6 +444,10 @@
     "aaguid": "b93fd961-f2e6-462f-b122-82002247de78"
   },
   {
+    "name": "HID Crescendo 4000 FIDO",
+    "aaguid": "aa79f476-ea00-417e-9628-1e8365123922"
+  },
+  {
     "name": "VeridiumID Passkey iOS SDK",
     "aaguid": "1e906e14-77af-46bc-ae9f-fe6ef18257e4"
   },
