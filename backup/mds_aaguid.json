@@ -772,6 +772,10 @@
     "aaguid": "b9f6b7b6-f929-4189-bca9-dd951240c132"
   },
   {
+    "name": "ToothPic Passkey Provider",
+    "aaguid": "cc45f64e-52a2-451b-831a-4edd8022a202"
+  },
+  {
     "name": "Security Key NFC by Yubico - Enterprise Edition",
     "aaguid": "0bb43545-fd2c-4185-87dd-feb0b2916ace"
   },
