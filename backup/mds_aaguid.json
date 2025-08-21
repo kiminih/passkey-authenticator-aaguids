@@ -544,6 +544,10 @@
     "aaguid": "234cd403-35a2-4cc2-8015-77ea280c77f5"
   },
   {
+    "name": "Hyper FIDO Pro (CTAP2.1, CTAP2.0, U2F)",
+    "aaguid": "6999180d-630c-442d-b8f7-424b90a43fae"
+  },
+  {
     "name": "YubiKey 5 Series with NFC - Enhanced PIN",
     "aaguid": "662ef48a-95e2-4aaa-a6c1-5b9c40375824"
   },
@@ -618,6 +622,10 @@
   {
     "name": "FIDO Alliance TruU Sample FIDO2 Authenticator",
     "aaguid": "ca87cb70-4c1b-4579-a8e8-4efdd7c007e0"
+  },
+  {
+    "name": "Hyper FIDO Pro NFC",
+    "aaguid": "23195a52-62d9-40fa-8ee5-23b173f4fb52"
   },
   {
     "name": "NEOWAVE Badgeo FIDO2 (CTAP 2.1)",
