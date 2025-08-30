@@ -304,6 +304,10 @@
     "aaguid": "998f358b-2dd2-4cbe-a43a-e8107438dfb3"
   },
   {
+    "name": "OneSpan DIGIPASS FX2-A",
+    "aaguid": "30b5035e-d297-4ff2-010b-addc96ba6a98"
+  },
+  {
     "name": "Swissbit iShield Key 2 FIPS",
     "aaguid": "817cdab8-0d51-4de1-a821-e25b88519cf3"
   },
@@ -330,6 +334,10 @@
   {
     "name": "RSA Authenticator 4 for iOS",
     "aaguid": "8681a073-5f50-4d52-bce4-e21658d207b3"
+  },
+  {
+    "name": "OneSpan DIGIPASS FX7-C",
+    "aaguid": "30b5035e-d297-4ff7-030b-addc96ba6a98"
   },
   {
     "name": "Deepnet SafeKey/Classic (FP)",
@@ -738,6 +746,10 @@
   {
     "name": "Ensurity AUTH BioPro Desktop",
     "aaguid": "9eb85bb6-9625-4a72-815d-0487830ccab2"
+  },
+  {
+    "name": "OneSpan DIGIPASS FX7-B",
+    "aaguid": "30b5035e-d297-4ff7-010b-addc96ba6a98"
   },
   {
     "name": "Allthenticator Android App: roaming BLE FIDO2 Allthenticator for Windows, Mac, Linux, and Allthenticate door readers",
