@@ -130,5 +130,9 @@
   {
     "name": "Microsoft Password Manager",
     "aaguid": "d3452668-01fd-4c12-926c-83a4204853aa"
+  },
+  {
+    "name": "initial",
+    "aaguid": "6d212b28-a2c1-4638-b375-5932070f62e9"
   }
 ]
