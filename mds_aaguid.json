@@ -368,6 +368,10 @@
     "aaguid": "79f3c8ba-9e35-484b-8f47-53a5a0f5c630"
   },
   {
+    "name": "IDEMIA SOLVO Fly 80 R3 FIDO Card e",
+    "aaguid": "def8ab1a-9f91-44f1-a103-088d8dc7d681"
+  },
+  {
     "name": "WinMagic FIDO Eazy - TPM",
     "aaguid": "970c8d9c-19d2-46af-aa32-3f448db49e35"
   },
@@ -982,6 +986,10 @@
   {
     "name": "eWBM eFA310 FIDO2 Authenticator",
     "aaguid": "95442b2e-f15e-4def-b270-efb106facb4e"
+  },
+  {
+    "name": "IDEMIA SOLVO Fly 80 R3 FIDO Card c",
+    "aaguid": "dda9aa35-aaf1-4d3c-b6db-7902fd7dbbbf"
   },
   {
     "name": "Excelsecu eSecu FIDO2 Security Key",
