@@ -1,12 +1,12 @@
 [
   {
-    "aaguid": "def8ab1a-9f91-44f1-a103-088d8dc7d681",
-    "name": "IDEMIA SOLVO Fly 80 R3 FIDO Card e",
-    "added_at": "2025-09-09T00:47:16.300457Z"
+    "aaguid": "bb66c294-de08-47e4-b7aa-d12c2cd3fb20",
+    "name": "Mettlesemi Vishwaas Hawk Authenticator using FIDO2",
+    "added_at": "2025-09-10T00:45:50.469533Z"
   },
   {
-    "aaguid": "dda9aa35-aaf1-4d3c-b6db-7902fd7dbbbf",
-    "name": "IDEMIA SOLVO Fly 80 R3 FIDO Card c",
-    "added_at": "2025-09-09T00:47:16.300492Z"
+    "aaguid": "489ff376-b48d-6640-bb69-782a860ca795",
+    "name": "Mettlesemi Vishwaas Eagle Authenticator using FIDO2",
+    "added_at": "2025-09-10T00:45:50.469549Z"
   }
 ]
