@@ -676,6 +676,10 @@
     "aaguid": "7409272d-1ff9-4e10-9fc9-ac0019c124fd"
   },
   {
+    "name": "Mettlesemi Vishwaas Hawk Authenticator using FIDO2",
+    "aaguid": "bb66c294-de08-47e4-b7aa-d12c2cd3fb20"
+  },
+  {
     "name": "HID Crescendo Fusion",
     "aaguid": "c4ddaf11-3032-4e77-b3b9-3a340369b9ad"
   },
@@ -874,6 +878,10 @@
   {
     "name": "HID Crescendo Key V2",
     "aaguid": "2d3bec26-15ee-4f5d-88b2-53622490270b"
+  },
+  {
+    "name": "Mettlesemi Vishwaas Eagle Authenticator using FIDO2",
+    "aaguid": "489ff376-b48d-6640-bb69-782a860ca795"
   },
   {
     "name": "YubiKey 5 Series with Lightning (Enterprise Profile)",
