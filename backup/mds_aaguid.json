@@ -444,6 +444,10 @@
     "aaguid": "882adaf5-3aa9-4708-8e7d-3957103775b4"
   },
   {
+    "name": "IDEX CTAP2.1 Biometric, No pin",
+    "aaguid": "49a15c1c-3f63-3f51-23a7-b9e00096edd1"
+  },
+  {
     "name": "FIDO KeyPass S3",
     "aaguid": "f4c63eff-d26c-4248-801c-3736c7eaa93a"
   },

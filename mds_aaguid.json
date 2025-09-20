@@ -208,6 +208,10 @@
     "aaguid": "d91c5288-0ef0-49b7-b8ae-21ca0aa6b3f3"
   },
   {
+    "name": "HID Crescendo 4000 FIPS",
+    "aaguid": "8eec9bf9-486c-46da-9a67-1fbb4f66b9ed"
+  },
+  {
     "name": "ImproveID Authenticator",
     "aaguid": "4c50ff10-1057-4fc6-b8ed-43a529530c3c"
   },
