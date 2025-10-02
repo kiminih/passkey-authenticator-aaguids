@@ -404,6 +404,10 @@
     "aaguid": "820d89ed-d65a-409e-85cb-f73f0578f82a"
   },
   {
+    "name": "ATLKey Authenticator",
+    "aaguid": "019614a3-2703-7e35-a453-285fd06c5d24"
+  },
+  {
     "name": "YubiKey 5 Series with Lightning Preview",
     "aaguid": "3124e301-f14e-4e38-876d-fbeeb090e7bf"
   },
