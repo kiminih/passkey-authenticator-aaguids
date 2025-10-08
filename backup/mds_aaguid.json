@@ -840,6 +840,10 @@
     "aaguid": "70e7c36f-f2f6-9e0d-07a6-bcc243262e6b"
   },
   {
+    "name": "YubiKey 5 CCN Series with NFC (Enterprise Profile)",
+    "aaguid": "4fc84f16-2545-4e53-b8fc-7bf4d7282a10"
+  },
+  {
     "name": "YubiKey 5 Series with NFC (Enterprise Profile)",
     "aaguid": "6ab56fad-881f-4a43-acb2-0be065924522"
   },
@@ -1014,6 +1018,10 @@
   {
     "name": "Excelsecu eSecu FIDO2 Security Key",
     "aaguid": "cdbdaea2-c415-5073-50f7-c04e968640b6"
+  },
+  {
+    "name": "YubiKey 5 CCN Series with NFC",
+    "aaguid": "3aa78eb1-ddd8-46a8-a821-8f8ec57a7bd5"
   },
   {
     "name": "OCTATCO EzQuant FIDO2 AUTHENTICATOR",
