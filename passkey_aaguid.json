@@ -96,6 +96,10 @@
     "aaguid": "fdb141b2-5d84-443e-8a35-4698c205a502"
   },
   {
+    "name": "KeePassDX",
+    "aaguid": "eaecdef2-1c31-5634-8639-f1cbd9c00a08"
+  },
+  {
     "name": "ToothPic Passkey Provider",
     "aaguid": "cc45f64e-52a2-451b-831a-4edd8022a202"
   },
