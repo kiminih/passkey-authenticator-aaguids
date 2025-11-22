@@ -216,6 +216,10 @@
     "aaguid": "4c50ff10-1057-4fc6-b8ed-43a529530c3c"
   },
   {
+    "name": "Idem Key (Consumer profile)",
+    "aaguid": "c611b55c-77b2-4527-8082-590e931b2f08"
+  },
+  {
     "name": "Feitian ePass FIDO2-NFC Authenticator",
     "aaguid": "ee041bce-25e5-4cdb-8f86-897fd6418464"
   },
@@ -278,6 +282,10 @@
   {
     "name": "Ensurity AUTH TouchPro",
     "aaguid": "50cbf15a-238c-4457-8f16-812c43bf3c49"
+  },
+  {
+    "name": "VeriMark NFC+ USB-C Security Key",
+    "aaguid": "ee7fa1e0-9539-432f-bd43-9c2fc6d4f311"
   },
   {
     "name": "YubiKey 5 Series with Lightning (Enterprise Profile)",
@@ -798,6 +806,10 @@
   {
     "name": "USB/NFC Passcode Authenticator",
     "aaguid": "cfcb13a2-244f-4b36-9077-82b79d6a7de7"
+  },
+  {
+    "name": "VeriMark NFC+ USB-A Security Key",
+    "aaguid": "76692dc1-c56a-48d9-8e7d-31b5ced430ac"
   },
   {
     "name": "Token Ring FIDO2 Authenticator",

@@ -1,1 +1,17 @@
-[]
+[
+  {
+    "aaguid": "c611b55c-77b2-4527-8082-590e931b2f08",
+    "name": "Idem Key (Consumer profile)",
+    "added_at": "2025-11-22T00:48:26.004867Z"
+  },
+  {
+    "aaguid": "ee7fa1e0-9539-432f-bd43-9c2fc6d4f311",
+    "name": "VeriMark NFC+ USB-C Security Key",
+    "added_at": "2025-11-22T00:48:26.004886Z"
+  },
+  {
+    "aaguid": "76692dc1-c56a-48d9-8e7d-31b5ced430ac",
+    "name": "VeriMark NFC+ USB-A Security Key",
+    "added_at": "2025-11-22T00:48:26.004907Z"
+  }
+]
