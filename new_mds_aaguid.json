@@ -1,7 +1,12 @@
 [
   {
-    "aaguid": "d716019a-9f4e-4041-9750-17c78f8ae81a",
-    "name": "eToken Fusion BIO",
-    "added_at": "2025-12-04T00:52:40.982506Z"
+    "aaguid": "4e2ddbc2-2687-4709-8551-cb66c9776bfe",
+    "name": "SECORA ID V2 FIDO2.1 L1",
+    "added_at": "2025-12-05T00:53:27.097034Z"
+  },
+  {
+    "aaguid": "f573f209-b7fb-b261-671a-d7cf624cc812",
+    "name": "Excelsecu eSecu FIDO2 PRO+ Security Key",
+    "added_at": "2025-12-05T00:53:27.097052Z"
   }
 ]
