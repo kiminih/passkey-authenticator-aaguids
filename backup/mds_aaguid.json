@@ -652,6 +652,10 @@
     "aaguid": "83c47309-aabb-4108-8470-8be838b573cb"
   },
   {
+    "name": "SECORA ID V2 FIDO2.1 L1",
+    "aaguid": "4e2ddbc2-2687-4709-8551-cb66c9776bfe"
+  },
+  {
     "name": "Crayonic KeyVault K1 (USB-NFC-BLE FIDO2 Authenticator)",
     "aaguid": "be727034-574a-f799-5c76-0929e0430973"
   },
@@ -958,6 +962,10 @@
   {
     "name": "YubiKey Bio Series - Multi-protocol Edition (Enterprise Profile)",
     "aaguid": "97e6a830-c952-4740-95fc-7c78dc97ce47"
+  },
+  {
+    "name": "Excelsecu eSecu FIDO2 PRO+ Security Key",
+    "aaguid": "f573f209-b7fb-b261-671a-d7cf624cc812"
   },
   {
     "name": "Ledger Stax FIDO2 Authenticator",
