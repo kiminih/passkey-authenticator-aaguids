@@ -1032,6 +1032,10 @@
     "aaguid": "5d629218-d3a5-11ed-afa1-0242ac120002"
   },
   {
+    "name": "TruU FIDO2 Authenticator",
+    "aaguid": "bb878d7b-cf54-4784-b390-357030497043"
+  },
+  {
     "name": "ATKey.Card CTAP2.0",
     "aaguid": "d41f5a69-b817-4144-a13c-9ebd6d9254d6"
   },
