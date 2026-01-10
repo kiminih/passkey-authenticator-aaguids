@@ -784,6 +784,10 @@
     "aaguid": "30b5035e-d297-4fc1-b00b-addc96ba6a97"
   },
   {
+    "name": "KQC QuKey Bio FIDO2 Authenticator",
+    "aaguid": "560a780cb6ae4f03b110082f856425b4"
+  },
+  {
     "name": "YubiKey 5 Series with NFC (Enterprise Profile)",
     "aaguid": "1ac71f64-468d-4fe0-bef1-0e5f2f551f18"
   },
