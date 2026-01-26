@@ -1024,6 +1024,10 @@
     "aaguid": "a1f52be5-dfab-4364-b51c-2bd496b14a56"
   },
   {
+    "name": "Taglio CTAP2.1 BIO",
+    "aaguid": "0f00cc22-4640-41e7-9585-384ec73ffe9b"
+  },
+  {
     "name": "YubiKey 5 Series",
     "aaguid": "ff4dac45-ede8-4ec2-aced-cf66103f4335"
   },
