@@ -1,17 +1,1 @@
-[
-  {
-    "aaguid": "33d6d7d0-279f-4ef3-96b3-2d3282f4bde6",
-    "name": "Thales eToken Fusion BIO Enterprise",
-    "added_at": "2026-01-29T01:04:39.741057Z"
-  },
-  {
-    "aaguid": "b113a455-cfb6-4c17-8cba-cd952feb7d48",
-    "name": "eToken FIDO NFC",
-    "added_at": "2026-01-29T01:04:39.741086Z"
-  },
-  {
-    "aaguid": "a6c5f5d8-2ad0-48b6-8257-e502c8970931",
-    "name": "eToken FIDO NFC Enterprise",
-    "added_at": "2026-01-29T01:04:39.741095Z"
-  }
-]
+[]

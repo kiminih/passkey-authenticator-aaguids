@@ -708,6 +708,10 @@
     "aaguid": "e77e3c64-05e3-428b-8824-0cbeb04b829d"
   },
   {
+    "name": "Thales eToken Fusion BIO Enterprise",
+    "aaguid": "33d6d7d0-279f-4ef3-96b3-2d3282f4bde6"
+  },
+  {
     "name": "VeridiumID Passkey Android SDK",
     "aaguid": "8d4378b0-725d-4432-b3c2-01fcdaf46286"
   },
@@ -1064,6 +1068,10 @@
     "aaguid": "e86addcd-7711-47e5-b42a-c18257b0bf61"
   },
   {
+    "name": "eToken FIDO NFC",
+    "aaguid": "b113a455-cfb6-4c17-8cba-cd952feb7d48"
+  },
+  {
     "name": "eWBM eFA310 FIDO2 Authenticator",
     "aaguid": "95442b2e-f15e-4def-b270-efb106facb4e"
   },
@@ -1090,6 +1098,10 @@
   {
     "name": "IDEMIA SOLVO Fly 80 R1 FIDO Card Draft",
     "aaguid": "3fd410dc-8ab7-4b86-a1cb-c7174620b2dc"
+  },
+  {
+    "name": "eToken FIDO NFC Enterprise",
+    "aaguid": "a6c5f5d8-2ad0-48b6-8257-e502c8970931"
   },
   {
     "name": "Swissbit iShield Key 2 Enterprise",
