@@ -620,6 +620,10 @@
     "aaguid": "30b5035e-d297-4ff1-020b-addc96ba6a98"
   },
   {
+    "name": "Thales PAY GFCX13 authenticator",
+    "aaguid": "04a8fcf2-19c1-457b-911e-69219f17583f"
+  },
+  {
     "name": "YubiKey 5 Series (Enterprise Profile)",
     "aaguid": "20ac7a17-c814-4833-93fe-539f0d5e3389"
   },
@@ -978,6 +982,10 @@
   {
     "name": "VivoKey Apex FIDO2",
     "aaguid": "d7a423ad-3e19-4492-9200-78137dccc136"
+  },
+  {
+    "name": "Ledger Nano Gen5 FIDO2 Authenticator",
+    "aaguid": "b3315166-f36c-b05f-fea8-66a3dfdad171"
   },
   {
     "name": "ATKey.ProS",

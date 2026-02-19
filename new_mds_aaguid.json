@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "aaguid": "04a8fcf2-19c1-457b-911e-69219f17583f",
+    "name": "Thales PAY GFCX13 authenticator",
+    "added_at": "2026-02-19T01:10:20.650317Z"
+  },
+  {
+    "aaguid": "b3315166-f36c-b05f-fea8-66a3dfdad171",
+    "name": "Ledger Nano Gen5 FIDO2 Authenticator",
+    "added_at": "2026-02-19T01:10:20.650338Z"
+  }
+]
