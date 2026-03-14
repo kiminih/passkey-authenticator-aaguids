@@ -1,17 +1,1 @@
-[
-  {
-    "aaguid": "9a272558-5cfa-4424-be37-65509677b77d",
-    "name": "SECORA ID Key S USB by Infineon Consumer Edition",
-    "added_at": "2026-03-13T01:06:40.074853Z"
-  },
-  {
-    "aaguid": "3e9db280-256a-4e17-b08e-19d79e9be166",
-    "name": "SECORA ID V2 by Infineon Pay Edition",
-    "added_at": "2026-03-13T01:06:40.074874Z"
-  },
-  {
-    "aaguid": "005b20e1-f146-4b87-8f3a-36848ff60ea6",
-    "name": "SECORA ID V2 by Infineon Pay Edition M",
-    "added_at": "2026-03-13T01:06:40.074885Z"
-  }
-]
+[]
