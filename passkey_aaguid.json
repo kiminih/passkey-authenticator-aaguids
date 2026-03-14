@@ -154,5 +154,9 @@
   {
     "name": "Sticky Password Manager",
     "aaguid": "d9be9d39-e6a6-4c28-a581-32b044d986e4"
+  },
+  {
+    "name": "Passwall",
+    "aaguid": "70617373-7761-6c6c-6669-646f32303236"
   }
 ]
