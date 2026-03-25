@@ -520,6 +520,10 @@
     "aaguid": "31c3f7ff-bf15-4327-83ec-9336abcbcd34"
   },
   {
+    "name": "ACS PocketKey+ Bio",
+    "aaguid": "cb4f796c-a20a-af9e-d639-213c1ec247f3"
+  },
+  {
     "name": "Windows Hello VBS Hardware Authenticator",
     "aaguid": "9ddd1817-af5a-4672-a2b9-3e3dd95000a9"
   },
