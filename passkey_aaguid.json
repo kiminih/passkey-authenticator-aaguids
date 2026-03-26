@@ -158,5 +158,9 @@
   {
     "name": "Passwall",
     "aaguid": "70617373-7761-6c6c-6669-646f32303236"
+  },
+  {
+    "name": "Burp Suite Navigation Recorder",
+    "aaguid": "c9cadfc9-89a9-489e-a25a-c7e86a4d5f15"
   }
 ]
