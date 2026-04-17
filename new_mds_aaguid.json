@@ -1,1 +1,87 @@
-[]
+[
+  {
+    "aaguid": "24083bcb-3034-4867-99de-a3b52e1d426a",
+    "name": "Enterprise Security Key Series with NFC (Consumer Profile)",
+    "added_at": "2026-04-17T01:23:55.636946Z"
+  },
+  {
+    "aaguid": "524de2de-982f-49b4-a769-2b5e3b73ad79",
+    "name": "YubiKey 5 Series (Enterprise Profile)",
+    "added_at": "2026-04-17T01:23:55.636978Z"
+  },
+  {
+    "aaguid": "dc5e949d-f939-43b3-9877-a85c7186b753",
+    "name": "YubiKey Bio Multi-protocol Edition (Enterprise Profile)",
+    "added_at": "2026-04-17T01:23:55.636983Z"
+  },
+  {
+    "aaguid": "0a357157-9b18-4c8a-920e-d156e972b2f8",
+    "name": "YubiKey 5 Series (Consumer Profile)",
+    "added_at": "2026-04-17T01:23:55.636987Z"
+  },
+  {
+    "aaguid": "eb7ef748-cbe0-4b40-b8f6-07bd2d592d35",
+    "name": "YubiKey 5 CCN Series with NFC (Consumer Profile)",
+    "added_at": "2026-04-17T01:23:55.636991Z"
+  },
+  {
+    "aaguid": "9dd8d593-2213-438a-97f8-d6b813d51c27",
+    "name": "YubiKey Bio Fido Edition (Consumer Profile)",
+    "added_at": "2026-04-17T01:23:55.636995Z"
+  },
+  {
+    "aaguid": "03012cb7-4fb2-42e7-9e8d-a81f10e2a5e9",
+    "name": "YubiKey 5 Series with Lightning (Consumer Profile)",
+    "added_at": "2026-04-17T01:23:55.637009Z"
+  },
+  {
+    "aaguid": "0f083f18-4105-43a8-ad69-24e812e38141",
+    "name": "Security Key Series with NFC (Consumer Profile)",
+    "added_at": "2026-04-17T01:23:55.637014Z"
+  },
+  {
+    "aaguid": "0ebd9f2c-f685-441c-8c3e-a02a234a840a",
+    "name": "YubiKey 5 Series with NFC Enhanced PIN (Consumer Profile)",
+    "added_at": "2026-04-17T01:23:55.637019Z"
+  },
+  {
+    "aaguid": "ab7d1767-3fa0-4388-b6c4-feef7a844809",
+    "name": "Enterprise Security Key Series with NFC (Enterprise Profile)",
+    "added_at": "2026-04-17T01:23:55.637024Z"
+  },
+  {
+    "aaguid": "f4ce5fc0-57d3-46f5-a736-efb7d5bc63b5",
+    "name": "YubiKey 5 Series with NFC (Consumer Profile)",
+    "added_at": "2026-04-17T01:23:55.637027Z"
+  },
+  {
+    "aaguid": "ba0a9266-40d8-4048-9786-d710b5474752",
+    "name": "YubiKey Bio Multi-protocol Edition (Consumer Profile)",
+    "added_at": "2026-04-17T01:23:55.637039Z"
+  },
+  {
+    "aaguid": "3ec9c8d3-a5a7-415b-a7b5-f1d606368d3f",
+    "name": "YubiKey 5 CCN Series with NFC (Enterprise Profile)",
+    "added_at": "2026-04-17T01:23:55.637043Z"
+  },
+  {
+    "aaguid": "9a3f2abd-a73d-439c-9ee7-1b53a857eaa7",
+    "name": "YubiKey 5 Series with NFC Enhanced PIN (Enterprise Profile)",
+    "added_at": "2026-04-17T01:23:55.637047Z"
+  },
+  {
+    "aaguid": "41e39911-c669-4811-b860-c6ad0b411b96",
+    "name": "YubiKey 5 Series with NFC (Enterprise Profile)",
+    "added_at": "2026-04-17T01:23:55.637050Z"
+  },
+  {
+    "aaguid": "add92433-0d69-4026-8166-29b25bce64e9",
+    "name": "YubiKey Bio Fido Edition (Enterprise Profile)",
+    "added_at": "2026-04-17T01:23:55.637055Z"
+  },
+  {
+    "aaguid": "c3479970-e58a-4f70-836f-853bf42fb063",
+    "name": "YubiKey 5 Series with Lightning (Enterprise Profile)",
+    "added_at": "2026-04-17T01:23:55.637069Z"
+  }
+]
