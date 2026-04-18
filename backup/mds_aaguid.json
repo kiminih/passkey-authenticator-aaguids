@@ -244,6 +244,10 @@
     "aaguid": "efb96b10-a9ee-4b6c-a4a9-d32125ccd4a4"
   },
   {
+    "name": "Enterprise Security Key Series with NFC (Consumer Profile)",
+    "aaguid": "24083bcb-3034-4867-99de-a3b52e1d426a"
+  },
+  {
     "name": "KeyXentic FIDO2 Secp256R1 FIDO2 CTAP2 Authenticator",
     "aaguid": "4b3f8944-d4f2-4d21-bb19-764a986ec160"
   },
@@ -258,6 +262,10 @@
   {
     "name": "OneKey FIDO2 Authenticator",
     "aaguid": "69e7c36f-f2f6-9e0d-07a6-bcc243262e6b"
+  },
+  {
+    "name": "YubiKey 5 Series (Enterprise Profile)",
+    "aaguid": "524de2de-982f-49b4-a769-2b5e3b73ad79"
   },
   {
     "name": "Pone Biometrics OFFPAD Authenticator",
@@ -278,6 +286,10 @@
   {
     "name": "Feitian ePass FIDO-NFC (Enterprise Profile) (CTAP2.1, CTAP2.0, U2F)",
     "aaguid": "39589099-9a75-49fc-afaa-801ca211c62a"
+  },
+  {
+    "name": "YubiKey Bio Multi-protocol Edition (Enterprise Profile)",
+    "aaguid": "dc5e949d-f939-43b3-9877-a85c7186b753"
   },
   {
     "name": "Security Key by Yubico with NFC",
@@ -328,6 +340,10 @@
     "aaguid": "46544d5d-8f5d-4db4-89ac-ea8977073fff"
   },
   {
+    "name": "YubiKey 5 Series (Consumer Profile)",
+    "aaguid": "0a357157-9b18-4c8a-920e-d156e972b2f8"
+  },
+  {
     "name": "OnlyKey Secp256R1 FIDO2 CTAP2 Authenticator",
     "aaguid": "998f358b-2dd2-4cbe-a43a-e8107438dfb3"
   },
@@ -376,6 +392,10 @@
     "aaguid": "c89e6a38-6c00-5426-5aa5-c9cbf48f0382"
   },
   {
+    "name": "YubiKey 5 CCN Series with NFC (Consumer Profile)",
+    "aaguid": "eb7ef748-cbe0-4b40-b8f6-07bd2d592d35"
+  },
+  {
     "name": "YubiKey 5 Series with Lightning",
     "aaguid": "a02167b9-ae71-4ac7-9a07-06432ebb6f1c"
   },
@@ -402,6 +422,10 @@
   {
     "name": "IDEMIA SOLVO Fly 80 R3 FIDO Card e",
     "aaguid": "def8ab1a-9f91-44f1-a103-088d8dc7d681"
+  },
+  {
+    "name": "YubiKey Bio Fido Edition (Consumer Profile)",
+    "aaguid": "9dd8d593-2213-438a-97f8-d6b813d51c27"
   },
   {
     "name": "WinMagic FIDO Eazy - TPM",
@@ -560,8 +584,16 @@
     "aaguid": "2ffd6452-01da-471f-821b-ea4bf6c8676a"
   },
   {
+    "name": "YubiKey 5 Series with Lightning (Consumer Profile)",
+    "aaguid": "03012cb7-4fb2-42e7-9e8d-a81f10e2a5e9"
+  },
+  {
     "name": "OneSpan DIGIPASS FX7",
     "aaguid": "30b5035e-d297-4ff7-b00b-addc96ba6a98"
+  },
+  {
+    "name": "Security Key Series with NFC (Consumer Profile)",
+    "aaguid": "0f083f18-4105-43a8-ad69-24e812e38141"
   },
   {
     "name": "Swissbit iShield Key 2 FIPS Enterprise",
@@ -574,6 +606,10 @@
   {
     "name": "HID Crescendo Key",
     "aaguid": "692db549-7ae5-44d5-a1e5-dd20a493b723"
+  },
+  {
+    "name": "YubiKey 5 Series with NFC Enhanced PIN (Consumer Profile)",
+    "aaguid": "0ebd9f2c-f685-441c-8c3e-a02a234a840a"
   },
   {
     "name": "Clife Key 2 NFC",
@@ -590,6 +626,14 @@
   {
     "name": "Feitian iePass FIDO Authenticator",
     "aaguid": "3e22415d-7fdf-4ea4-8a0c-dd60c4249b9d"
+  },
+  {
+    "name": "Enterprise Security Key Series with NFC (Enterprise Profile)",
+    "aaguid": "ab7d1767-3fa0-4388-b6c4-feef7a844809"
+  },
+  {
+    "name": "YubiKey 5 Series with NFC (Consumer Profile)",
+    "aaguid": "f4ce5fc0-57d3-46f5-a736-efb7d5bc63b5"
   },
   {
     "name": "SafeNet eToken Fusion CC",
@@ -704,12 +748,20 @@
     "aaguid": "23195a52-62d9-40fa-8ee5-23b173f4fb52"
   },
   {
+    "name": "YubiKey Bio Multi-protocol Edition (Consumer Profile)",
+    "aaguid": "ba0a9266-40d8-4048-9786-d710b5474752"
+  },
+  {
     "name": "SECORA ID V2 by Infineon Pay Edition",
     "aaguid": "3e9db280-256a-4e17-b08e-19d79e9be166"
   },
   {
     "name": "NEOWAVE Badgeo FIDO2 (CTAP 2.1)",
     "aaguid": "a7fc3f84-86a3-4da4-a3d7-eb6485a066d8"
+  },
+  {
+    "name": "YubiKey 5 CCN Series with NFC (Enterprise Profile)",
+    "aaguid": "3ec9c8d3-a5a7-415b-a7b5-f1d606368d3f"
   },
   {
     "name": "YubiKey 5 FIPS Series with Lightning (RC Preview)",
@@ -720,8 +772,16 @@
     "aaguid": "58b44d0b-0a7c-f33a-fd48-f7153c871352"
   },
   {
+    "name": "YubiKey 5 Series with NFC Enhanced PIN (Enterprise Profile)",
+    "aaguid": "9a3f2abd-a73d-439c-9ee7-1b53a857eaa7"
+  },
+  {
     "name": "Ensurity AUTH BioPro",
     "aaguid": "454e5346-4944-4ffd-6c93-8e9267193e9b"
+  },
+  {
+    "name": "YubiKey 5 Series with NFC (Enterprise Profile)",
+    "aaguid": "41e39911-c669-4811-b860-c6ad0b411b96"
   },
   {
     "name": "eToken Fusion NFC PIV",
@@ -754,6 +814,10 @@
   {
     "name": "HID Crescendo Fusion",
     "aaguid": "c4ddaf11-3032-4e77-b3b9-3a340369b9ad"
+  },
+  {
+    "name": "YubiKey Bio Fido Edition (Enterprise Profile)",
+    "aaguid": "add92433-0d69-4026-8166-29b25bce64e9"
   },
   {
     "name": "YubiKey Bio Series - Multi-protocol Edition",
@@ -1062,6 +1126,10 @@
   {
     "name": "OCTATCO EzFinger2 FIDO2 AUTHENTICATOR",
     "aaguid": "a1f52be5-dfab-4364-b51c-2bd496b14a56"
+  },
+  {
+    "name": "YubiKey 5 Series with Lightning (Enterprise Profile)",
+    "aaguid": "c3479970-e58a-4f70-836f-853bf42fb063"
   },
   {
     "name": "Taglio CTAP2.1 BIO",
