@@ -416,6 +416,10 @@
     "aaguid": "79f3c8ba-9e35-484b-8f47-53a5a0f5c630"
   },
   {
+    "name": "WebComm OETHenticator",
+    "aaguid": "6e34341a-88c7-483d-b777-a425c355be93"
+  },
+  {
     "name": "G+D StarKey FIDO2-NFC",
     "aaguid": "7a53c643-9dec-4219-b3a4-f9d24aca4e12"
   },
@@ -728,6 +732,10 @@
     "aaguid": "83c47309-aabb-4108-8470-8be838b573cb"
   },
   {
+    "name": "Deepnet SafeKey/Classic (FP) XF",
+    "aaguid": "c1288a5c-d66b-495c-a68f-4e81f9ec5b53"
+  },
+  {
     "name": "SECORA ID V2 FIDO2.1 L1",
     "aaguid": "4e2ddbc2-2687-4709-8551-cb66c9776bfe"
   },
@@ -758,6 +766,10 @@
   {
     "name": "NEOWAVE Badgeo FIDO2 (CTAP 2.1)",
     "aaguid": "a7fc3f84-86a3-4da4-a3d7-eb6485a066d8"
+  },
+  {
+    "name": "Thetis Pro FIDO2 Key",
+    "aaguid": "1f8e43df-71ff-e11d-bea3-c4ee7003b232"
   },
   {
     "name": "YubiKey 5 CCN Series with NFC (Enterprise Profile)",
@@ -1058,6 +1070,10 @@
   {
     "name": "YubiKey 5 Series with Lightning",
     "aaguid": "24673149-6c86-42e7-98d9-433fb5b73296"
+  },
+  {
+    "name": "Deepnet SafeKey/Classic (NFC)",
+    "aaguid": "357f2718-434f-4124-8a58-7e28c5e4a2fc"
   },
   {
     "name": "Feitian BioPass FIDO2 Plus Authenticator",
