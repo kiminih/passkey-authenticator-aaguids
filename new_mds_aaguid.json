@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "aaguid": "7dab85a5-d16d-4eaf-a7ef-4c1385b151c5",
+    "name": "YubiKey 5 Series with NFC (Consumer Profile) KVZR57-2",
+    "added_at": "2026-04-28T01:51:16.313080Z"
+  },
+  {
+    "aaguid": "9955a1cd-564c-d388-ad68-9878a27be9f1",
+    "name": "StarSign Chase FIDO Card",
+    "added_at": "2026-04-28T01:51:16.313097Z"
+  },
+  {
+    "aaguid": "9806a2c8-c0da-478e-b4ca-620005d34182",
+    "name": "YubiKey Bio Multi-protocol Edition (Consumer Profile) 1VDJSN-2",
+    "added_at": "2026-04-28T01:51:16.313109Z"
+  },
+  {
+    "aaguid": "72a2b5b1-95a5-4df9-a881-4192aff4f72e",
+    "name": "GoTrust Idem Key mini",
+    "added_at": "2026-04-28T01:51:16.313122Z"
+  }
+]
