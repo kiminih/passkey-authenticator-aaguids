@@ -416,6 +416,10 @@
     "aaguid": "59f85fe7-faa5-4c92-9f52-697b9d4d5473"
   },
   {
+    "name": "Precision InnaIT Key FIDO 2 Level 2 certified",
+    "aaguid": "22682ee5-4f0e-4c19-be3e-797d5770ebfe"
+  },
+  {
     "name": "YubiKey 5 FIPS Series with NFC (Enterprise Profile)",
     "aaguid": "79f3c8ba-9e35-484b-8f47-53a5a0f5c630"
   },
@@ -506,6 +510,10 @@
   {
     "name": "Somu Secp256R1 FIDO2 CTAP2 Authenticator",
     "aaguid": "9876631b-d4a0-427f-5773-0ec71c9e0279"
+  },
+  {
+    "name": "Precision InnaIT Key FIDO 2 Level 2 certified",
+    "aaguid": "522a3f91-5f5d-480d-be37-6cecfad5a27b"
   },
   {
     "name": "WinMagic FIDO Eazy - Phone",
@@ -924,6 +932,10 @@
     "aaguid": "6d44ba9b-f6ec-2e49-b930-0c8fe920cb73"
   },
   {
+    "name": "Precision InnaIT Key FIDO 2 Level 2 certified",
+    "aaguid": "6832d205-75f2-44c7-a864-e868c796d06e"
+  },
+  {
     "name": "Ensurity AUTH BioPro Desktop",
     "aaguid": "9eb85bb6-9625-4a72-815d-0487830ccab2"
   },
@@ -1018,6 +1030,10 @@
   {
     "name": "ID-One Key",
     "aaguid": "f2145e86-211e-4931-b874-e22bba7d01cc"
+  },
+  {
+    "name": "Precision InnaIT Key FIDO 2 Level 2 certified",
+    "aaguid": "53334693-4b3f-4198-8857-53772de2ab65"
   },
   {
     "name": "Excelsecu eSecu FIDO2 NFC Security Key",

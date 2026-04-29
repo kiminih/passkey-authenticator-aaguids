@@ -220,7 +220,7 @@
     "aaguid": "4c50ff10-1057-4fc6-b8ed-43a529530c3c"
   },
   {
-    "name": "GoTrust Idem Key (Consumer profile)",
+    "name": "GoTrust Idem Key ",
     "aaguid": "c611b55c-77b2-4527-8082-590e931b2f08"
   },
   {
@@ -332,7 +332,7 @@
     "aaguid": "5ea308b2-7ac7-48b9-ac09-7e2da9015f8c"
   },
   {
-    "name": "GoTrust Idem Key FIDO2 Authenticator",
+    "name": "GoTrust Idem Key",
     "aaguid": "3b1adb99-0dfe-46fd-90b8-7f7614a4de2a"
   },
   {
@@ -370,6 +370,10 @@
   {
     "name": "Solo Tap Secp256R1 FIDO2 CTAP2 Authenticator",
     "aaguid": "8976631b-d4a0-427f-5773-0ec71c9e0279"
+  },
+  {
+    "name": "YubiKey 5 Series with NFC (Consumer Profile) KVZR57-2",
+    "aaguid": "7dab85a5-d16d-4eaf-a7ef-4c1385b151c5"
   },
   {
     "name": "SmartDisplayer BobeePass FIDO2 Authenticator",
@@ -426,6 +430,10 @@
   {
     "name": "IDEMIA SOLVO Fly 80 R3 FIDO Card e",
     "aaguid": "def8ab1a-9f91-44f1-a103-088d8dc7d681"
+  },
+  {
+    "name": "StarSign Chase FIDO Card",
+    "aaguid": "9955a1cd-564c-d388-ad68-9878a27be9f1"
   },
   {
     "name": "YubiKey Bio Fido Edition (Consumer Profile)",
@@ -588,6 +596,10 @@
     "aaguid": "2ffd6452-01da-471f-821b-ea4bf6c8676a"
   },
   {
+    "name": "YubiKey Bio Multi-protocol Edition (Consumer Profile) 1VDJSN-2",
+    "aaguid": "9806a2c8-c0da-478e-b4ca-620005d34182"
+  },
+  {
     "name": "YubiKey 5 Series with Lightning (Consumer Profile)",
     "aaguid": "03012cb7-4fb2-42e7-9e8d-a81f10e2a5e9"
   },
@@ -700,7 +712,7 @@
     "aaguid": "d7781e5d-e353-46aa-afe2-3ca49f13332a"
   },
   {
-    "name": "GoTrust Idem Card FIDO2 Authenticator",
+    "name": "GoTrust Idem Card",
     "aaguid": "9f0d8150-baa5-4c00-9299-ad62c8bb4e87"
   },
   {
@@ -858,6 +870,10 @@
   {
     "name": "HID Crescendo Enabled",
     "aaguid": "54d9fee8-e621-4291-8b18-7157b99c5bec"
+  },
+  {
+    "name": "GoTrust Idem Key mini",
+    "aaguid": "72a2b5b1-95a5-4df9-a881-4192aff4f72e"
   },
   {
     "name": "YubiKey 5 Series with NFC",
