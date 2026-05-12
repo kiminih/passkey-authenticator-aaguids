@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "aaguid": "2588ae83-5a3b-4536-b8de-5e540200d191",
+    "name": "Dapple Authenticator from Dapple Security Inc.",
+    "added_at": "2026-05-12T01:57:11.767544Z"
+  },
+  {
+    "aaguid": "6d4aa745-dad5-40c4-b9b4-6a252fcee70f",
+    "name": "GoTrust Cyber Key",
+    "added_at": "2026-05-12T01:57:11.767563Z"
+  }
+]
