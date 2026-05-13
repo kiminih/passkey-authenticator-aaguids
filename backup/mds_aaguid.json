@@ -228,6 +228,10 @@
     "aaguid": "ee041bce-25e5-4cdb-8f86-897fd6418464"
   },
   {
+    "name": "Dapple Authenticator from Dapple Security Inc.",
+    "aaguid": "2588ae83-5a3b-4536-b8de-5e540200d191"
+  },
+  {
     "name": "IIST FIDO2 Authenticator",
     "aaguid": "4b89f401-464e-4745-a520-486ddfc5d80e"
   },
@@ -318,6 +322,10 @@
   {
     "name": "YubiKey 5 Series with Lightning (Enterprise Profile)",
     "aaguid": "b90e7dc1-316e-4fee-a25a-56a666a670fe"
+  },
+  {
+    "name": "GoTrust Cyber Key",
+    "aaguid": "6d4aa745-dad5-40c4-b9b4-6a252fcee70f"
   },
   {
     "name": "Chunghwa Telecom FIDO2 Smart Card Authenticator",
