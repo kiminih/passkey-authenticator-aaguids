@@ -104,6 +104,10 @@
     "aaguid": "eaecdef2-1c31-5634-8639-f1cbd9c00a08"
   },
   {
+    "name": "KeePassPasskey",
+    "aaguid": "9addb28c-b46f-4402-808f-019651441ff3"
+  },
+  {
     "name": "ToothPic Passkey Provider",
     "aaguid": "cc45f64e-52a2-451b-831a-4edd8022a202"
   },
