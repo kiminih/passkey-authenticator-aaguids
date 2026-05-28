@@ -576,6 +576,10 @@
     "aaguid": "cb4f796c-a20a-af9e-d639-213c1ec247f3"
   },
   {
+    "name": "IIST SASE USB KEY 1",
+    "aaguid": "686de81e-fff2-41c1-bb83-2723aaf3e913"
+  },
+  {
     "name": "Windows Hello VBS Hardware Authenticator",
     "aaguid": "9ddd1817-af5a-4672-a2b9-3e3dd95000a9"
   },
