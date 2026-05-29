@@ -166,5 +166,21 @@
   {
     "name": "Burp Suite Navigation Recorder",
     "aaguid": "c9cadfc9-89a9-489e-a25a-c7e86a4d5f15"
+  },
+  {
+    "name": "Norton Password Manager",
+    "aaguid": "fa37f553-f9b6-4adb-ac53-8bbb57ebdf0d"
+  },
+  {
+    "name": "Avast Password Manager",
+    "aaguid": "a4a2d88e-9796-4356-9164-e2a5a8bd019c"
+  },
+  {
+    "name": "Avira Password Manager",
+    "aaguid": "e7db2bd3-f2fe-4d71-ad78-7e7aa166cfd1"
+  },
+  {
+    "name": "AVG Password Manager",
+    "aaguid": "6bb49926-160a-4306-a100-4eb39ba6ac45"
   }
 ]
