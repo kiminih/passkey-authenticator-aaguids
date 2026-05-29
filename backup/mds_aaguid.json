@@ -976,6 +976,10 @@
     "aaguid": "905b4cb4-ed6f-4da9-92fc-45e0d4e9b5c7"
   },
   {
+    "name": "SECORA Connect SLS21 D1 FIDO 2.1 v1.0 by Infineon - Consumer Edition",
+    "aaguid": "dee49ee1-11cb-47b6-bed0-8e995e67a0fb"
+  },
+  {
     "name": "USB/NFC Passcode Authenticator",
     "aaguid": "cfcb13a2-244f-4b36-9077-82b79d6a7de7"
   },
@@ -1282,6 +1286,10 @@
   {
     "name": "Feitian BioPass FIDO2 Authenticator",
     "aaguid": "77010bd7-212a-4fc9-b236-d2ca5e9d4084"
+  },
+  {
+    "name": "SECORA Connect SLS21 D1 FIDO 2.1 v1.0 by Infineon - Enterprise Edition",
+    "aaguid": "3b3faa7b-2c56-4489-bcd3-53b83ee75768"
   },
   {
     "name": "VeriMark Guard Fingerprint Key",
