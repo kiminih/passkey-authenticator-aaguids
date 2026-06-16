@@ -312,6 +312,10 @@
     "aaguid": "09619fbf-d75e-4a62-be1d-fe4d240864ae"
   },
   {
+    "name": "SECORA ID V2 by Infineon Consumer Edition",
+    "aaguid": "55fd881f-40ba-4eaf-8435-42c5fed08b76"
+  },
+  {
     "name": "Ensurity AUTH TouchPro",
     "aaguid": "50cbf15a-238c-4457-8f16-812c43bf3c49"
   },
@@ -582,6 +586,10 @@
   {
     "name": "Windows Hello VBS Hardware Authenticator",
     "aaguid": "9ddd1817-af5a-4672-a2b9-3e3dd95000a9"
+  },
+  {
+    "name": "SECORA ID Key S USB by Infineon Enterprise Edition",
+    "aaguid": "18852056-063b-4042-9814-7d0d383081f9"
   },
   {
     "name": "YubiKey Bio Series - FIDO Edition",
@@ -1234,6 +1242,10 @@
   {
     "name": "IDCore 3121 Fido",
     "aaguid": "e86addcd-7711-47e5-b42a-c18257b0bf61"
+  },
+  {
+    "name": "SECORA ID V2 by Infineon Enterprise Edition",
+    "aaguid": "8108bdcd-8483-46b3-b3ce-359f8190325e"
   },
   {
     "name": "eToken FIDO NFC",
