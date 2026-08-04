@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "name": "Uniqkey",
+    "aaguid": "45e3057e-b2f9-48ed-912f-9b901e153b16",
+    "added_at": "2026-08-04T02:37:49.496720Z"
+  },
+  {
+    "name": "PassCard",
+    "aaguid": "87f5ec51-f721-4feb-9fe4-be18c4971894",
+    "added_at": "2026-08-04T02:37:49.496720Z"
+  }
+]
