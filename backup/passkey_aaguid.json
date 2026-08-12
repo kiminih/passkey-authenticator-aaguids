@@ -206,5 +206,9 @@
   {
     "name": "PassCard",
     "aaguid": "87f5ec51-f721-4feb-9fe4-be18c4971894"
+  },
+  {
+    "name": "WALLIX Vault",
+    "aaguid": "477b05cd-7f78-4fe7-b629-27247f296138"
   }
 ]
