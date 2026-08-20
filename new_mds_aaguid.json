@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "aaguid": "8791f7dc-418b-4510-bbf5-3baf30715324",
+    "name": "Virtual FIDO2 authenticator for Linux-based systems",
+    "added_at": "2026-08-20T00:34:46.574434Z"
+  },
+  {
+    "aaguid": "39502df1-646d-4e31-81a1-2ef68b324678",
+    "name": "USB GoldKey Security Token",
+    "added_at": "2026-08-20T00:34:46.574458Z"
+  }
+]
