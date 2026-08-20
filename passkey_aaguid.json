@@ -214,5 +214,9 @@
   {
     "name": "Password Depot",
     "aaguid": "53e7a7a5-e75f-4d3d-9483-12fc779cdf23"
+  },
+  {
+    "name": "iPass Secure Auth",
+    "aaguid": "cb6f6666-38ea-4873-9161-ff456a82d316"
   }
 ]
