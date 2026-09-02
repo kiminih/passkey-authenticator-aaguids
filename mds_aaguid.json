@@ -212,6 +212,10 @@
     "aaguid": "a4e9fc6d-4cbe-4758-b8ba-37598bb5bbaa"
   },
   {
+    "name": "cryptovision ePasslet Suite FIDO Authenticator",
+    "aaguid": "8caf7e7b-6c8b-46a9-b36b-5d04740d7463"
+  },
+  {
     "name": "Nymi FIDO2 Authenticator",
     "aaguid": "0acf3011-bc60-f375-fb53-6f05f43154e0"
   },
@@ -416,6 +420,10 @@
     "aaguid": "c89e6a38-6c00-5426-5aa5-c9cbf48f0382"
   },
   {
+    "name": "Thales PAY GFCX20.1 authenticator",
+    "aaguid": "11544c3c-3693-40ba-9dbb-3b8d2b977988"
+  },
+  {
     "name": "YubiKey 5 CCN Series with NFC (Consumer Profile)",
     "aaguid": "eb7ef748-cbe0-4b40-b8f6-07bd2d592d35"
   },
@@ -442,6 +450,10 @@
   {
     "name": "Precision InnaIT Key FIDO 2 Level 2 certified",
     "aaguid": "22682ee5-4f0e-4c19-be3e-797d5770ebfe"
+  },
+  {
+    "name": "Thales PAY GFCX19 authenticator",
+    "aaguid": "0fbb74b5-f1ac-4f14-a0f1-ec39b5edfdae"
   },
   {
     "name": "YubiKey 5 FIPS Series with NFC (Enterprise Profile)",
