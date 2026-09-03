@@ -1,17 +1,1 @@
-[
-  {
-    "aaguid": "8caf7e7b-6c8b-46a9-b36b-5d04740d7463",
-    "name": "cryptovision ePasslet Suite FIDO Authenticator",
-    "added_at": "2026-09-02T01:49:17.226883Z"
-  },
-  {
-    "aaguid": "11544c3c-3693-40ba-9dbb-3b8d2b977988",
-    "name": "Thales PAY GFCX20.1 authenticator",
-    "added_at": "2026-09-02T01:49:17.226899Z"
-  },
-  {
-    "aaguid": "0fbb74b5-f1ac-4f14-a0f1-ec39b5edfdae",
-    "name": "Thales PAY GFCX19 authenticator",
-    "added_at": "2026-09-02T01:49:17.226904Z"
-  }
-]
+[]
