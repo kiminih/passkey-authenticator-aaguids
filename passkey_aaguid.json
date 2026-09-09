@@ -218,5 +218,9 @@
   {
     "name": "iPass Secure Auth",
     "aaguid": "cb6f6666-38ea-4873-9161-ff456a82d316"
+  },
+  {
+    "name": "U2 Secured",
+    "aaguid": "9f8a3b2c-1d4e-4f6a-8b0c-2e1d3c4b5a69"
   }
 ]
