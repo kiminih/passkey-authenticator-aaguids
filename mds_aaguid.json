@@ -872,6 +872,10 @@
     "aaguid": "146e77ef-11eb-4423-b847-ce77864e9411"
   },
   {
+    "name": "ZTPass SmartAuth FIPS",
+    "aaguid": "c1bee13f-f347-4f53-9cd4-e8a2f98ee008"
+  },
+  {
     "name": "HID Crescendo Key V3 - Enterprise Edition",
     "aaguid": "13ac47cf-1d78-4fd5-9060-aedaabacf826"
   },
@@ -1010,6 +1014,10 @@
   {
     "name": "Samsung Pass",
     "aaguid": "53414d53-554e-4700-0000-000000000000"
+  },
+  {
+    "name": "ZTPass SmartAuth",
+    "aaguid": "b2647539-a130-4aee-8c34-9e4b52339123"
   },
   {
     "name": "ATKey.Pro CTAP2.1",
