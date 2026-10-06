@@ -1308,6 +1308,10 @@
     "aaguid": "b113a455-cfb6-4c17-8cba-cd952feb7d48"
   },
   {
+    "name": "IDEMIA FIDO Card",
+    "aaguid": "e50e32f3-02ec-4afb-bdac-7205d12629df"
+  },
+  {
     "name": "eWBM eFA310 FIDO2 Authenticator",
     "aaguid": "95442b2e-f15e-4def-b270-efb106facb4e"
   },
