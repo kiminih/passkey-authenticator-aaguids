@@ -1,5 +1,9 @@
 [
   {
+    "name": "TeamPass",
+    "aaguid": "7c30bcef-f035-4e21-9175-5c985b4b239c"
+  },
+  {
     "name": "Monica Pass",
     "aaguid": "6d6f6e69-6361-4d33-a001-706173736b79"
   },
@@ -246,5 +250,9 @@
   {
     "name": "Authn8",
     "aaguid": "c4ed941c-86d3-4532-a6a9-bc42b80d5c38"
+  },
+  {
+    "name": "Fobb Security",
+    "aaguid": "441f5bad-a8ec-4572-8094-ee73a1c7cec7"
   }
 ]
