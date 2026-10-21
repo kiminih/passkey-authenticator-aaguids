@@ -160,6 +160,10 @@
     "aaguid": "d49b2120-b865-4191-8cea-be84a52b0485"
   },
   {
+    "name": "Share Credentials",
+    "aaguid": "93fea28e-9b08-41d0-b663-20c36b008e70"
+  },
+  {
     "name": "Sherlocked",
     "aaguid": "e8b7f4a2-c3d5-e6f7-890a-b1c2d3e4f567"
   },
@@ -254,5 +258,13 @@
   {
     "name": "Fobb Security",
     "aaguid": "441f5bad-a8ec-4572-8094-ee73a1c7cec7"
+  },
+  {
+    "name": "Pleasant Password Server",
+    "aaguid": "16a5a15d-7244-4563-856d-a5167d8b9783"
+  },
+  {
+    "name": "Cyclop Passkey",
+    "aaguid": "7c596f1a-3e42-4b8d-9a0f-5d2ce1b84493"
   }
 ]
