@@ -1296,6 +1296,10 @@
     "aaguid": "d41f5a69-b817-4144-a13c-9ebd6d9254d6"
   },
   {
+    "name": "Codebook Password Manager FIDO2 passkey authenticator. https://www.zetetic.net/codebook/ User verification is performed by Codebook; P-256/ES256 WebAuthn operations.",
+    "aaguid": "a63ac290-c20f-4048-8e84-f1565222be28"
+  },
+  {
     "name": "IDCore 3121 Fido",
     "aaguid": "e86addcd-7711-47e5-b42a-c18257b0bf61"
   },
