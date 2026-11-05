@@ -344,6 +344,10 @@
     "aaguid": "6d4aa745-dad5-40c4-b9b4-6a252fcee70f"
   },
   {
+    "name": "SafeNet eToken Fusion NFC 930C FIDO2.1",
+    "aaguid": "9152406a-de8e-46dd-8685-3875c067e486"
+  },
+  {
     "name": "Chunghwa Telecom FIDO2 Smart Card Authenticator",
     "aaguid": "175cd298-83d2-4a26-b637-313c07a6434e"
   },
@@ -986,6 +990,10 @@
   {
     "name": "YubiKey 5 Series with NFC (Enterprise Profile)",
     "aaguid": "1ac71f64-468d-4fe0-bef1-0e5f2f551f18"
+  },
+  {
+    "name": "Access FIDO",
+    "aaguid": "8576631b-d4a0-427f-5773-0ec71c9e0279"
   },
   {
     "name": "Security Key by Yubico with NFC",
