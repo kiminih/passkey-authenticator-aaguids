@@ -1,1 +1,37 @@
-[]
+[
+  {
+    "aaguid": "fdb141b2-5d84-443e-8a35-4698c205a502",
+    "name": "KeePassXC Password Manager",
+    "added_at": "2026-11-07T03:37:20.861875Z"
+  },
+  {
+    "aaguid": "d2717a32-9851-48a8-9961-b264c97a411a",
+    "name": "Fenko Vault: offline-first passkey manager by Fenko Security. ES256 passkeys in a locally encrypted vault with PRF support and encrypted backups. Chrome, Edge, Firefox extension and Android provider.",
+    "added_at": "2026-11-07T03:37:20.861896Z"
+  },
+  {
+    "aaguid": "d53e7a41-8c2f-4b6e-9a07-3c51e2946b1f",
+    "name": "DeepVault Password Manager",
+    "added_at": "2026-11-07T03:37:20.861917Z"
+  },
+  {
+    "aaguid": "d350af52-0351-4ba2-acd3-dfeeadc3f764",
+    "name": "Huvisoft pwSafe password manager supporting passwords and passkeys on iOS, iPadOS, and macOS.",
+    "added_at": "2026-11-07T03:37:20.861920Z"
+  },
+  {
+    "aaguid": "9f8a3b2c-1d4e-4f6a-8b0c-2e1d3c4b5a69",
+    "name": "U2 Secured Authenticator, a passkey provider on iOS and Android that also holds two-factor codes and push approvals",
+    "added_at": "2026-11-07T03:37:20.861931Z"
+  },
+  {
+    "aaguid": "f1d0badc-0def-4f1d-8bad-c0def1d0badc",
+    "name": "Android passkey provider and FIDO2 security key",
+    "added_at": "2026-11-07T03:37:20.861936Z"
+  },
+  {
+    "aaguid": "c4ed941c-86d3-4532-a6a9-bc42b80d5c38",
+    "name": "Authn8 shares passkeys, 2FA codes and passwords across a team. Passkey private keys are encrypted on the Authn8 servers and used through the Authn8 extension for Chrome and Edge on desktop.",
+    "added_at": "2026-11-07T03:37:20.861942Z"
+  }
+]

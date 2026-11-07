@@ -184,7 +184,11 @@
     "aaguid": "72c6b72d-8512-4c66-8359-9d3d10d9222f"
   },
   {
-    "name": "VeroCard FIDO2 Authenticator",
+    "name": "KeePassXC Password Manager",
+    "aaguid": "fdb141b2-5d84-443e-8a35-4698c205a502"
+  },
+  {
+    "name": "Keyek FIDO2 Authenticator",
     "aaguid": "99ed6c29-4573-4847-816d-78ad8f1c75ef"
   },
   {
@@ -266,6 +270,10 @@
   {
     "name": "KeyXentic FIDO2 Secp256R1 FIDO2 CTAP2 Authenticator",
     "aaguid": "4b3f8944-d4f2-4d21-bb19-764a986ec160"
+  },
+  {
+    "name": "Fenko Vault: offline-first passkey manager by Fenko Security. ES256 passkeys in a locally encrypted vault with PRF support and encrypted backups. Chrome, Edge, Firefox extension and Android provider.",
+    "aaguid": "d2717a32-9851-48a8-9961-b264c97a411a"
   },
   {
     "name": "Feitian BioPass FIDO2 Pro Authenticator",
@@ -796,8 +804,16 @@
     "aaguid": "dd86a2da-86a0-4cbe-b462-4bd31f57bc6f"
   },
   {
+    "name": "DeepVault Password Manager",
+    "aaguid": "d53e7a41-8c2f-4b6e-9a07-3c51e2946b1f"
+  },
+  {
     "name": "GSTAG OAK FIDO2 Authenticator",
     "aaguid": "773c30d9-5919-4e96-a4f5-db65e95cf890"
+  },
+  {
+    "name": "Huvisoft pwSafe password manager supporting passwords and passkeys on iOS, iPadOS, and macOS.",
+    "aaguid": "d350af52-0351-4ba2-acd3-dfeeadc3f764"
   },
   {
     "name": "YubiKey 5 Series with NFC Preview",
@@ -1084,6 +1100,10 @@
     "aaguid": "73402251-f2a8-4f03-873e-3cb6db604b03"
   },
   {
+    "name": "U2 Secured Authenticator, a passkey provider on iOS and Android that also holds two-factor codes and push approvals",
+    "aaguid": "9f8a3b2c-1d4e-4f6a-8b0c-2e1d3c4b5a69"
+  },
+  {
     "name": "YubiKey 5 FIPS Series with NFC",
     "aaguid": "c1f9a0bc-1dd2-404a-b27f-8e29047a43fd"
   },
@@ -1166,6 +1186,10 @@
   {
     "name": "YubiKey 5 Series",
     "aaguid": "cb69481e-8ff7-4039-93ec-0a2729a154a8"
+  },
+  {
+    "name": "Android passkey provider and FIDO2 security key",
+    "aaguid": "f1d0badc-0def-4f1d-8bad-c0def1d0badc"
   },
   {
     "name": "HYPR FIDO2 Authenticator",
@@ -1286,6 +1310,10 @@
   {
     "name": "Dashlane Password Manager",
     "aaguid": "531126d6-e717-415c-9320-3d9aa6981239"
+  },
+  {
+    "name": "Authn8 shares passkeys, 2FA codes and passwords across a team. Passkey private keys are encrypted on the Authn8 servers and used through the Authn8 extension for Chrome and Edge on desktop.",
+    "aaguid": "c4ed941c-86d3-4532-a6a9-bc42b80d5c38"
   },
   {
     "name": "Swissbit iShield Key Pro",
