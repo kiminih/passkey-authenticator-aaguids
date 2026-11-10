@@ -1208,6 +1208,10 @@
     "aaguid": "24673149-6c86-42e7-98d9-433fb5b73296"
   },
   {
+    "name": "SafeNet IDPrime CL FIDO2.1 - Desfire EV3C",
+    "aaguid": "bdf4ac2c-13a2-4a08-bc3b-8a511c99ac96"
+  },
+  {
     "name": "Deepnet SafeKey/Classic (NFC)",
     "aaguid": "357f2718-434f-4124-8a58-7e28c5e4a2fc"
   },
