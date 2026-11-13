@@ -1,7 +1,27 @@
 [
   {
-    "aaguid": "0ea242b4-43c4-4a1b-8b17-dd6d0b6baec6",
-    "name": "Keeper Security delivers the leading zero-trust, zero-knowledge identity security platform that unifies credential and privileged access management for humans, machines and AI identities.",
-    "added_at": "2026-11-12T04:45:46.156880Z"
+    "aaguid": "0b4f3699-4016-4fa5-8e32-9948e0dce59c",
+    "name": "SafeNet IDPrime CL FIDO2.1 - Desfire EV3C Enterprise Extended",
+    "added_at": "2026-11-13T03:57:10.007655Z"
+  },
+  {
+    "aaguid": "eb47c8d0-bd15-4227-b469-8ff90d433045",
+    "name": "PassHulk",
+    "added_at": "2026-11-13T03:57:10.007693Z"
+  },
+  {
+    "aaguid": "8159a550-8be4-45f7-af80-2e5944f9cb6d",
+    "name": "GoTrust Idem Key mini",
+    "added_at": "2026-11-13T03:57:10.007703Z"
+  },
+  {
+    "aaguid": "efa165bc-fa36-4b4d-90e8-f8caeb88602c",
+    "name": "PalmFaith Scout FIDO2 Authenticator",
+    "added_at": "2026-11-13T03:57:10.007716Z"
+  },
+  {
+    "aaguid": "c6d7e8f9-a0b1-4c2d-8e3f-4a5b6c7d8e9f",
+    "name": "GoTrust Idem Card",
+    "added_at": "2026-11-13T03:57:10.007734Z"
   }
 ]

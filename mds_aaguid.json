@@ -1,5 +1,9 @@
 [
   {
+    "name": "SafeNet IDPrime CL FIDO2.1 - Desfire EV3C Enterprise Extended",
+    "aaguid": "0b4f3699-4016-4fa5-8e32-9948e0dce59c"
+  },
+  {
     "name": "Ledger Nano X FIDO2 Authenticator",
     "aaguid": "fcb1bcb4-f370-078c-6993-bc24d0ae3fbe"
   },
@@ -204,6 +208,10 @@
     "aaguid": "74820b05-a6c9-40f9-8fb0-9f86aca93998"
   },
   {
+    "name": "PassHulk",
+    "aaguid": "eb47c8d0-bd15-4227-b469-8ff90d433045"
+  },
+  {
     "name": "Egomet FIDO2 Authenticator for Android",
     "aaguid": "1105e4ed-af1d-02ff-ffff-ffffffffffff"
   },
@@ -238,6 +246,10 @@
   {
     "name": "GoTrust Idem Key ",
     "aaguid": "c611b55c-77b2-4527-8082-590e931b2f08"
+  },
+  {
+    "name": "GoTrust Idem Key mini",
+    "aaguid": "8159a550-8be4-45f7-af80-2e5944f9cb6d"
   },
   {
     "name": "Feitian ePass FIDO2-NFC Authenticator",
@@ -450,6 +462,10 @@
   {
     "name": "IDEMIA Access FIDO Smart Card",
     "aaguid": "6169eb16-f87a-42d8-978d-e1ac0c3f319f"
+  },
+  {
+    "name": "PalmFaith Scout FIDO2 Authenticator",
+    "aaguid": "efa165bc-fa36-4b4d-90e8-f8caeb88602c"
   },
   {
     "name": "Feitian FIDO Smart Card",
@@ -850,6 +866,10 @@
   {
     "name": "Hyper FIDO Pro NFC",
     "aaguid": "23195a52-62d9-40fa-8ee5-23b173f4fb52"
+  },
+  {
+    "name": "GoTrust Idem Card",
+    "aaguid": "c6d7e8f9-a0b1-4c2d-8e3f-4a5b6c7d8e9f"
   },
   {
     "name": "YubiKey Bio Multi-protocol Edition (Consumer Profile)",
