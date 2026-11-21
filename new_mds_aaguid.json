@@ -1,1 +1,32 @@
-[]
+[
+  {
+    "aaguid": "f3809540-7f14-49c1-a8b3-8f813b225541",
+    "name": "Enpass Password Manager",
+    "added_at": "2026-11-21T04:39:58.128236Z"
+  },
+  {
+    "aaguid": "a3b129e7-c506-4636-93af-f263c305f1dd",
+    "name": "KeltKey for Android, passkeys bound to the phone, with every key kept in its StrongBox security chip or trusted execution environment",
+    "added_at": "2026-11-21T04:39:58.128247Z"
+  },
+  {
+    "aaguid": "93fea28e-9b08-41d0-b663-20c36b008e70",
+    "name": "Share Credentials team password manager supporting passkeys and passwords, with passkeys offered through its Chrome extension on Windows, macOS and Linux",
+    "added_at": "2026-11-21T04:39:58.128256Z"
+  },
+  {
+    "aaguid": "9addb28c-b46f-4402-808f-019651441ff3",
+    "name": "Passkey provider for Windows that stores passkeys in KeePass databases",
+    "added_at": "2026-11-21T04:39:58.128259Z"
+  },
+  {
+    "aaguid": "d548826e-79b4-db40-a3d8-11116f7e8349",
+    "name": "Bitwarden Password Manager",
+    "added_at": "2026-11-21T04:39:58.128262Z"
+  },
+  {
+    "aaguid": "891494da-2c90-4d31-a9cd-4eab0aed1309",
+    "name": "Sesame password manager supporting passkeys and passwords on iPhone, iPad, and Mac",
+    "added_at": "2026-11-21T04:39:58.128265Z"
+  }
+]

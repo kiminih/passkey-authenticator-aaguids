@@ -820,6 +820,10 @@
     "aaguid": "1d8cac46-47a1-3386-af50-e88ae46fe802"
   },
   {
+    "name": "Enpass Password Manager",
+    "aaguid": "f3809540-7f14-49c1-a8b3-8f813b225541"
+  },
+  {
     "name": "YubiKey Bio Series - FIDO Edition",
     "aaguid": "dd86a2da-86a0-4cbe-b462-4bd31f57bc6f"
   },
@@ -850,6 +854,10 @@
   {
     "name": "Deepnet SafeKey/Classic (FP) XF",
     "aaguid": "c1288a5c-d66b-495c-a68f-4e81f9ec5b53"
+  },
+  {
+    "name": "KeltKey for Android, passkeys bound to the phone, with every key kept in its StrongBox security chip or trusted execution environment",
+    "aaguid": "a3b129e7-c506-4636-93af-f263c305f1dd"
   },
   {
     "name": "SECORA ID V2 FIDO2.1 L1",
@@ -1160,6 +1168,10 @@
     "aaguid": "f2145e86-211e-4931-b874-e22bba7d01cc"
   },
   {
+    "name": "Share Credentials team password manager supporting passkeys and passwords, with passkeys offered through its Chrome extension on Windows, macOS and Linux",
+    "aaguid": "93fea28e-9b08-41d0-b663-20c36b008e70"
+  },
+  {
     "name": "Precision InnaIT Key FIDO 2 Level 2 certified",
     "aaguid": "53334693-4b3f-4198-8857-53772de2ab65"
   },
@@ -1224,6 +1236,10 @@
     "aaguid": "0076631b-d4a0-427f-5773-0ec71c9e0279"
   },
   {
+    "name": "Passkey provider for Windows that stores passkeys in KeePass databases",
+    "aaguid": "9addb28c-b46f-4402-808f-019651441ff3"
+  },
+  {
     "name": "eToken Fusion BIO",
     "aaguid": "d716019a-9f4e-4041-9750-17c78f8ae81a"
   },
@@ -1270,6 +1286,10 @@
   {
     "name": "SECORA ID V2 by Infineon Pay Edition M",
     "aaguid": "005b20e1-f146-4b87-8f3a-36848ff60ea6"
+  },
+  {
+    "name": "Bitwarden Password Manager",
+    "aaguid": "d548826e-79b4-db40-a3d8-11116f7e8349"
   },
   {
     "name": "Ledger Stax FIDO2 Authenticator",
@@ -1366,6 +1386,10 @@
   {
     "name": "Codebook Password Manager FIDO2 passkey authenticator. https://www.zetetic.net/codebook/ User verification is performed by Codebook; P-256/ES256 WebAuthn operations.",
     "aaguid": "a63ac290-c20f-4048-8e84-f1565222be28"
+  },
+  {
+    "name": "Sesame password manager supporting passkeys and passwords on iPhone, iPad, and Mac",
+    "aaguid": "891494da-2c90-4d31-a9cd-4eab0aed1309"
   },
   {
     "name": "IDCore 3121 Fido",
